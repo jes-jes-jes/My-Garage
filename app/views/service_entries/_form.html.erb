@@ -1,0 +1,135 @@
+<%= form_with(model: [@service_entry.car, @service_entry]) do |f| %>
+  <% if @service_entry.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@service_entry.errors.count, "error") %> prohibited this service_entry from being saved:</h2>
+
+      <ul>
+      <% @service_entry.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :service %><br />
+    <%= f.text_field :service %>
+  </div>
+  <div class="field">
+    <%= f.label :date %><br />
+    <%= f.text_field :date %>
+  </div>
+  <div class="field">
+    <%= f.label :mileage %><br />
+    <%= f.number_field :mileage %>
+  </div>
+  <div class="field">
+    <%= f.label :comments %><br />
+    <%= f.text_area :comments %>
+  </div>
+  <div class="actions">
+    <%= f.submit :class => "button"%>
+  </div>
+<% end %>
+
+<style>
+  
+.field input {
+  color: gray;
+  margin-bottom: 1.5rem;
+}
+
+.field input:focus {
+  opacity: .8;
+}
+
+.field input {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid   #909090;
+  color:  #909090;
+  padding: .7rem;
+  margin-top: .5rem;
+
+}
+
+textarea {
+  min-width: 100%;
+  min-height: 80px;  
+  resize:none;
+  border-radius: 30px;
+}
+
+
+a:link {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+button {
+  border-radius: 30px;
+  border: 1px transparent;
+  background-image: linear-gradient(#aae4f4, #44c8ed);
+  color:#909090;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 1rem;
+  min-width: 110px;
+  max-height: 3px;
+  transition: all ease .4s;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+button:hover {
+  background-image:none;
+  background-image: linear-gradient(#bdeaf7, #71d9f6);
+  border-color: #44c8ed;
+  color:#white;
+  text-decoration: none;
+  color: white;
+}
+
+.button {
+  border-radius: 30px;
+  border: 1px transparent;
+  background-image: linear-gradient(#aae4f4, #44c8ed);
+  text-transform: uppercase;
+  font-family: Helvetica;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 1rem;
+  min-width: 110px;
+  max-height: 3px;
+  transition: all ease .4s;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #e3f9ff;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-image:none;
+  background-image: linear-gradient(#bdeaf7, #71d9f6);
+  border-color: #44c8ed;
+  color: white;
+  text-decoration: none;
+
+
+</style>

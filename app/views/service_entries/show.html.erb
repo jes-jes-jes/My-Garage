@@ -1,0 +1,26 @@
+<p>
+  <b>Service:</b>
+  <%= @service_entry.service %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @service_entry.date %>
+</p>
+
+<p>
+  <b>Mileage:</b>
+  <%= @service_entry.mileage %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @service_entry.comments %>
+</p>
+
+
+
+
+<%= link_to 'Edit', edit_car_service_entry_path(@service_entry.car, @service_entry) %> |
+<%= link_to 'Back', car_service_entries_path(@service_entry.car) %>
+<%= link_to 'Sign out', destroy_user_session_path, method: :delete %>

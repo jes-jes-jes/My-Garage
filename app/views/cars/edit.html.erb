@@ -1,0 +1,9 @@
+<h1>Editing Car</h1>
+
+<%= render 'form', car: @car %>
+
+<%= link_to 'Show', @car %> |
+<%= link_to 'Back', cars_path %>
+<p>
+ <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+</p>

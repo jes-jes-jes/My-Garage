@@ -1,0 +1,33 @@
+<h1>Listing service_entries</h1>
+
+<table>
+  <tr>
+    <th>Service</th>
+    <th>Date</th>
+    <th>Mileage</th>
+    <th>Comments</th>
+    <th>Car</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @service_entries.each do |service_entry| %>
+  <tr>
+    <td><%= service_entry.service %></td>
+    <td><%= service_entry.date %></td>
+    <td><%= service_entry.mileage %></td>
+    <td><%= service_entry.comments %></td>
+    <td><%= service_entry.car %></td>
+    <td><%= link_to 'Show', [service_entry.car, service_entry] %></td>
+    <td><%= link_to 'Edit', edit_car_service_entry_path(service_entry.car, service_entry) %></td>
+    <td><%= link_to 'Destroy', [service_entry.car, service_entry], method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Service entry', new_car_service_entry_path(params[:car_id]) %>
+
+<%= link_to 'Sign out', destroy_user_session_path, method: :delete %>

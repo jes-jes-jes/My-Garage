@@ -1,0 +1,8 @@
+<h1>Edit Service Entry</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', [@service_entry.car, @service_entry] %> |
+<%= link_to 'Back', car_service_entries_path(@service_entry.car) %>
+
+<%= link_to 'Sign out', destroy_user_session_path, method: :delete %>

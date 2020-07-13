@@ -1,0 +1,131 @@
+<%= form_with(model: car, local: true) do |form| %>
+  <% if car.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(car.errors.count, "error") %> prohibited this car from being saved:</h2>
+
+      <ul>
+      <% car.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nickname %>
+    <%= form.text_field :nickname, :prompt => "Select Make" %>
+  </div>
+
+
+
+
+<%#Make%>
+  <div class="drop-down">
+    <%= form.collection_select :base_makes, BaseMake.order(:MakeName), :id, :MakeName, :prompt => "Select Make"%>
+  </div>
+
+<%#Model%>
+  <div class="drop-down">
+    <%= form.collection_select :base_models, BaseModel.order(:ModelName), :id, :ModelName, :prompt => "Select Model" %>
+  </div>
+
+<%#Sub Model%>
+  <div class="drop-down">
+    <%= form.collection_select :base_sub_models, BaseSubModel.order(:SubModelName), :id, :SubModelName, :prompt => "Select Sub-Model" %>
+  </div>
+
+
+  <div class="actions">
+    <%= form.submit :class => "button"%>
+  </div>
+<% end %>
+
+<style>
+
+  
+.field input {
+  color: gray;
+  margin-bottom: 1.5rem;
+}
+
+.field input:focus {
+  opacity: .8;
+}
+
+.field input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid   #909090;
+  color:  #909090;
+  padding: .7rem;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+}
+
+.field {
+  font-size: 18px;
+  text-align: left;
+}
+
+select {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 2rem;
+}
+
+
+
+
+a:link {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button {
+  border-radius: 30px;
+  border: 1px transparent;
+  background-image: linear-gradient(#aae4f4, #44c8ed);
+  text-transform: uppercase;
+  font-family: Helvetica;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 1rem;
+  min-width: 110px;
+  max-height: 3px;
+  transition: all ease .4s;
+  color: white;
+  font-weight: 700;
+  line-height: 2px;
+}
+
+.button:hover {
+  background-image:none;
+  background-image: linear-gradient(#bdeaf7, #71d9f6);
+  border-color: #44c8ed;
+  color: white;
+  text-decoration: none;
+
+
+
+
+</style>
+

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Base_VehicleID: 1
+  YearID: 1
+  MakeID: 1
+  ModelID: 1
+
+two:
+  Base_VehicleID: 1
+  YearID: 1
+  MakeID: 1
+  ModelID: 1

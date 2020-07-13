@@ -1,0 +1,3328 @@
+SubModelID,SubModelName
+1,S
+2,GS
+3,SX
+4,GL
+5,GLX
+6,GLX Plus
+7,JS
+8,JS Plus
+9,JLX
+10,JLX Plus
+11,JLS
+12,JLS Plus
+13,Limited
+14,JLS Plus SE
+15,JLX Plus SE
+16,XL-7
+17,XL-7 Plus
+18,XL-7 Touring
+19,XL-7 Limited
+20,Base
+21,JA
+22,JX
+23,JX SE
+25,JL
+32,JX Sport
+33,JLX Sport
+34,JS Sport
+37,GA
+39,GT
+45,JX Plus
+49,SE
+52,Plus
+53,Touring
+55,Carrera
+57,Turbo Carrera
+58,SC
+59,Carrera 4
+60,Speedster
+61,Carrera 2
+62,RS America
+64,Targa
+65,Turbo 3.6
+66,Carrera 4S
+67,Turbo
+68,Carrera S
+69,GT2
+70,E
+77,S4
+78,GTS
+83,S2
+86,Roadster
+87,Roadster S
+92,GLS
+96,LS
+103,FX
+105,L
+113,LX
+123,Spider
+124,SL
+125,Custom
+128,HPE
+129,MK III
+130,Series II
+131,Series II SD
+132,Series II SE
+133,Series II LE
+134,HSE
+135,SE3
+136,County
+137,County SE
+138,Great Divide
+139,County LWB
+140,County Classic
+141,Sport
+142,DL
+143,GL Turbo
+144,X
+145,XS
+146,Brighton
+147,Outback
+148,RS
+149,TS
+150,WRX
+151,GT Limited
+152,L 30th Anniversary
+153,L SE
+154,Limited 30th Anniversary
+155,SUS 30th Anniversary
+156,Alpine Sport
+157,Outdoor
+158,Sun Sport
+159,LSi
+160,Outback Limited
+161,RS Turbo
+162,H6
+163,L.L. Bean
+164,VDC
+165,LSL
+166,XT6
+167,GL-10 Turbo
+168,Quadrifoglio
+169,2.5
+170,Gold
+171,Platinum
+172,Silver
+173,Verde
+174,Veloce
+175,Graduate
+176,Deluxe
+177,CDX
+178,CLS
+179,CLX
+180,CSX
+181,CES
+182,R
+183,Majestic
+184,C
+185,Sovereign
+186,Collection Rouge
+187,Classic Collection
+188,2+2
+189,100
+190,Cinco
+191,EX
+192,GSX
+193,Luxus
+194,Rallye
+195,MT
+196,GTA
+197,Electronic
+198,TL
+199,GTL
+200,Gordini
+201,Sportwagon
+202,Anniversary
+203,G.T.
+204,Magnum
+205,Motor Home
+206,GLT
+207,GLE
+208,T
+209,T-5
+210,T-5R
+211,2.4T
+212,AWD
+213,T5
+214,GLT SE
+215,2.9
+216,T6
+217,R AWD
+218,X/C
+219,X/C AWD
+220,X/C AWD SE
+221,STI
+222,Liberte
+223,STX
+224,SW8
+225,Mi 16
+226,Lightweight
+227,4.4i
+228,3.0i
+229,4.6is
+230,M Roadster
+231,Coupe
+232,M Coupe
+233,2.5i
+234,DLX
+236,1 Ton
+237,LSE
+238,S V6
+239,Ltd
+240,LP400
+241,LP400S
+242,LP500S
+244,25th Anniversary
+245,SE30
+246,VT
+247,SV
+248,VT 6.0
+249,VT 6.0 SE
+250,S3
+251,400GTS
+254,P200
+255,P250
+256,P300
+257,Postal
+258,Special
+259,LXi
+260,TSi
+261,300
+262,Crown
+263,LeBaron
+264,XE
+265,GTC
+267,Mark Cross
+268,Premium
+269,LE
+270,Landau
+271,Medallion
+272,Salon
+273,Brougham
+274,Classic
+275,Dream
+276,LX Plus
+278,LXi Limited
+279,JXi
+280,EL
+281,ES
+282,Special Edition
+283,C/V
+284,Ec
+285,2.2
+286,Shelby
+287,Premier
+288,Vista
+289,Vista SE
+290,Carousel
+291,Vista Custom
+292,Crestwood
+293,Miser
+294,Royal
+295,R/T
+296,SLT
+297,SXT
+298,WS
+299,Swinger Special
+300,Sport 360
+301,Swinger
+302,ES Turbo
+303,Iroc
+304,Iroc R/T
+305,Pacifica
+306,Shelby Z
+307,Turbo Z
+309,SLT Plus
+312,Special Coupe
+313,Royal Brougham
+314,ACR
+315,America
+316,GLH
+317,024 Charger 2.2
+318,24
+319,024 Miser
+320,E-Type
+321,Canyon Sport
+322,Royal SE
+323,High Line
+324,R/T Turbo
+325,SE Plus
+326,R/T-10
+327,SRT-10
+328,ESi
+329,Golden Eagle
+330,Laredo
+331,Renegade
+332,Golden Hawk
+333,Chief
+334,Pioneer
+335,Wide Track
+336,Briarwood
+337,Country
+338,Eliminator
+339,XLS
+340,Orvis
+342,5.9 Limited
+343,Overland
+344,SR
+345,Islander
+346,Sahara
+347,Rio Grande
+348,Rubicon
+349,Expresso
+351,360
+353,Turismo
+354,TC3
+358,Style
+359,Voyager
+360,Duster
+361,Scamp
+362,Road Runner
+366,Indianapolis 500 Pace Car
+367,Estate
+368,Estate Wagon
+369,Olympia Limited
+370,T-Type
+371,225
+373,Park Avenue
+374,Park Avenue Ultra
+375,Custom Sport
+376,Collector's Edition
+377,Limited Edition F/E
+378,Ultra
+379,25th Anniversary Edition
+380,GSE
+381,Gran Sport
+382,GNX
+383,Grand National
+384,Limited Turbo
+385,Olympic Gold Edition
+386,CX
+387,CX Plus
+388,CXL
+389,CXL Plus
+390,LXXV Anniversary Edition
+391,Limited Edition
+392,Luxury
+393,XX Anniversary Edition
+394,Limited Collector's Edition
+395,Estate Wagon Collector's Edition
+396,Designers' Accent Edition
+397,Road Hawk
+398,Luxury Edition
+399,Value Leader
+400,Luxury Sport
+401,d'Oro
+402,Concours
+403,DHS
+404,DTS
+405,d'Elegance
+406,Cabriolet
+408,Phaeton
+409,Spring Edition
+410,Biarritz
+411,Bicentenial Edition
+412,Brougham d'Elegance
+413,ESC
+414,ETC
+417,EXT
+418,75
+419,75 Formal
+420,Brougham Talisman
+421,60 Special
+422,60 Special Brougham
+423,Formal
+424,Elegante
+425,Opera
+426,SLS
+427,STS
+428,CL
+429,CS
+430,LT
+431,North Face
+432,On Road Edition
+434,Z71
+435,GTZ
+436,Z26
+437,Cheyenne
+438,Custom Deluxe
+439,Scottsdale
+440,Silverado
+441,Silverado Sport
+442,Big Ten
+443,454 SS
+444,WT
+445,HD
+446,Berlinetta
+447,Iroc-Z
+448,LT Rally Sport
+449,Rally Sport
+450,Z28
+451,Z28 Indianapolis 500 Pace Car
+453,RS Heritage Edition
+454,Z28 SS
+456,Z28 Heritage Edition
+458,Classic Estate
+459,Classic Landau
+460,Classic Brougham
+461,Classic Sport
+462,Classic LS Brougham
+463,Classic LS
+464,Classic LTZ
+465,Cadet
+466,LS Sport
+467,Type-10
+468,VL
+469,Z24
+470,Olympic
+471,Eurosport
+472,Diesel
+473,Sandpiper
+474,Scooter
+475,Woody
+476,Club
+477,X-11
+478,LTZ
+479,35th Anniversary Edition
+480,40th Anniversary Edition
+481,50th Anniversary Edition
+482,50th Anniversary Edition Pace Car
+485,Grand Sport
+486,Silver Anniversary Edition
+487,Stingray
+488,Z06
+489,ZR-1
+490,Conquista
+491,Royal Knight
+492,SS
+493,Beauville
+494,Bonaventure
+495,Chevy Van
+496,Sportvan
+497,Hi-Cube
+498,Custom Landau
+499,Mighty Mike
+500,Mikado
+501,Euro
+503,Z34
+504,Police
+505,LS Competition
+506,SS 35th Anniversary Edition
+507,SS Dale Earnhardt Signature Edition
+508,SS High Sport
+509,SS Pace Car
+510,Spyder
+511,Towne Coupe
+512,Towne Coupe Cabriolet
+513,Towne Coupe Sport
+514,Towne Coupe Spyder
+515,2+2 Sport
+516,2+2 Spyder
+517,Mirage
+518,Rally
+519,Twin Cam
+520,LN
+521,Step-Van
+522,Durango
+523,High Country
+525,Tahoe
+526,Tahoe LT
+527,Xtreme
+528,ZR2
+529,Trailblazer
+530,Baja
+531,Gypsy
+532,High Sierra
+533,ZR5
+536,CL Plus
+537,Express
+538,ER
+539,Metro
+540,Cosworth
+541,Panel Express
+542,Value
+543,Warner Bros.
+544,Indy Hauler
+545,Sierra Classic
+546,Sierra Grande
+547,Street Coupe
+548,Heavy Half
+549,Sierra
+550,Sierra SL
+551,Sierra SLE
+552,Sierra SLT
+553,Sierra SLX
+554,Sierra Special
+555,Sierra GT
+556,SLE
+557,Amarillo
+558,Diablo
+561,Rally STX
+562,Vandura
+563,Rally Custom
+564,Magnavan
+565,Rally Camper Special
+566,Vandura Special
+567,Sierra SLS
+568,Sierra Sport
+569,Value Van
+570,Timberline
+571,Diamond Edition
+572,Envoy
+573,SLX
+574,HT
+575,SP
+576,Sierra Madre Del Sur
+577,Denali
+578,XFi
+579,GSi
+580,2+2 GSi
+581,Regency
+582,Regency Touring
+583,Regency Brougham
+584,Regency Grande
+585,Regency Elite
+587,GX
+588,500
+589,Supreme
+590,Panel
+591,442
+592,Colonnade
+593,Colonnade S
+594,Hurst
+595,International
+596,Holiday
+597,Cruiser LS
+598,Brougham LS
+599,Vista Cruiser
+600,Vista Cruiser Brougham
+601,Indy 500 Pace Car
+602,Cruiser
+603,Royale
+604,Royale Brougham
+605,Royale Brougham LS
+606,Royale LS
+607,Cruiser S
+608,LC
+609,Brougham LX
+610,Cruiser LX
+611,Brougham SX
+612,Cruiser SX
+613,F85
+614,Firenza
+615,Trofeo
+616,XSR
+617,Caliente
+618,XSC
+619,STE
+620,GT Safari
+621,S Safari
+622,SJ
+623,SJ Safari
+624,Safari
+625,SSE
+626,SSEi
+627,Esprit
+629,Formula
+630,S/E
+631,Trans Am
+632,Trans Am GT
+633,Trans Am GTA
+634,Trans Am GTA SE
+635,GT1
+636,SE1
+637,SE2
+638,GTP
+639,LJ
+640,Mclaren
+641,Aerocoupe
+642,Aerocoupe YL
+643,LE Value Leader
+644,Montana
+646,Eddie Bauer
+649,XL
+652,XL Plus
+655,XL Sport
+656,XLT
+659,XLT Plus
+662,XLT Sport
+663,Northland
+664,Ranger
+665,Ranger XLT
+666,XLT Lariat
+667,XLT Nite
+668,GL Sport
+669,LX Sport
+670,SVT
+671,Country Squire
+672,LWB
+673,Police Interceptor
+674,Touring Sedan
+675,Ranch Wagon
+676,Chateau
+677,HO
+678,GT Turbo
+679,LX-E
+680,Pony
+681,ZX2
+682,ZX2 Cool Coupe
+683,ZX2 Hot Coupe
+684,Expedition
+686,XL Fleet
+693,Ranger Lariat
+694,Harley-Davidson Edition
+695,King Ranch
+696,Lariat
+697,Lightning
+698,Futura
+699,L Plus
+700,Sony Limited Edition
+702,ZTS
+703,ZTW
+704,ZX3
+705,ZX5
+706,Elite
+707,Squire
+708,ESS
+709,Ghia
+710,LX Brougham
+711,Country Squire LX
+712,Crown Victoria
+713,Crown Victoria LX
+714,Grabber
+715,Cobra
+716,Turbo GT
+717,GT Bullitt
+718,SVT Cobra
+719,SVT Cobra R
+720,GT-350 20th Anniversary
+721,Mach 1
+722,SVO
+723,Edge
+724,S Plus
+725,Splash
+726,MT5
+729,SE Comfort
+730,SVG
+731,G
+732,SHO
+733,L AWD
+734,LX AWD
+735,Diamond Jubilee
+736,Elan
+737,Fila
+738,Heritage
+739,Silver Anniversary
+740,Town Landau
+741,Super Coupe
+742,3.0L
+743,SE Sport
+744,SEL
+746,Diamond Anniversary
+747,Givenchy
+748,Signature
+751,Valentino
+752,Executive
+754,Bill Blass
+755,Pucci
+756,LSC
+757,Versace
+758,Cartier
+759,Cartier L
+760,Executive L
+761,Executive Protection Series
+762,Jack Nicklaus
+763,Cypress
+764,Touring Edition
+765,Signature SE
+766,Tournament Edition
+767,MPG Runabout
+768,Runabout
+769,S Runabout
+770,Villager
+771,5
+772,Black Magic
+773,Crimson Cat
+774,XR2
+775,Colony Park
+776,V6
+777,XR-7
+778,LTS
+779,XR3
+782,Grand Ghia
+783,MX
+784,MX Brougham
+785,MX Villager
+786,GS Spree
+787,LS Young America
+788,LS Premium
+789,GS AWD
+790,LS AWD
+791,LTS AWD
+792,Sport AWD
+793,XR5
+794,XR5 AWD
+795,Trio
+796,Nautica
+797,Z7
+798,Z7 GS
+799,Type-S
+800,LS Special Edition
+801,GS-R
+802,Type R
+803,Alex Zanardi Edition
+804,STD
+805,SEi
+806,DX
+809,10th Anniversary
+810,Value Package
+811,CVCC
+812,1200
+813,1300
+814,1300 DX
+815,1500
+816,1500 DX
+817,1500 GL
+818,1300 FE
+819,1500 S
+821,Wagovan
+822,RT 4WD
+823,Si
+824,VX
+825,HX
+826,VTEC
+827,HF
+829,2.0 Si
+830,2.0 S
+832,2.0 Si 4WS
+833,Si 4WS
+834,Si ALB
+836,Type SH
+837,CRX
+838,CRX 1.5
+839,CRX HF
+840,CRX Si
+841,SLi
+842,GT5
+843,GT5-S
+845,2.5 Turbo
+846,2.3
+847,2.6
+848,2.3-16
+849,2.8
+850,4Matic
+851,6.9
+852,Kompressor
+853,SWB
+854,MK IV
+855,V8
+856,EMS
+857,GLI
+858,SPG
+859,S Turbo
+860,SE Turbo
+861,Turbo Commemorative Edition
+862,CD
+863,CD Turbo
+864,CD Griffin Edition
+865,CS Turbo
+866,CSE
+867,CSE Turbo
+868,Aero
+869,CDE
+870,CDE Turbo
+871,Viggen
+873,Linear
+874,Vector
+875,Gary Fisher
+877,2.3t
+879,DL Kammback
+880,DL SX4
+881,SX4
+882,Kammback
+883,Sportabout
+885,Hunter
+886,Kensington
+887,Vitesse
+888,Callaway
+889,HSK
+890,SD
+891,SE7
+892,XD
+893,SE-R
+894,2+2 GL
+895,2+2 Turbo
+896,Enthusiast
+897,Performance
+898,Track
+899,GXE
+900,SVE
+902,A
+903,Anniversary Edition
+904,CA
+905,SE-R Spec V
+906,Red Label
+907,RL
+909,II
+910,III
+911,Park Ward
+912,Hybrid
+915,Terra
+916,Traveler
+917,SS2
+918,SPX
+920,ESi-R
+921,GST
+922,VR-4
+923,GSR
+924,Spyder SL
+925,Spyder VR-4
+926,Spyder GS
+927,Spyder GST
+928,DE
+929,Spyder GT
+930,VR-X
+931,OZ Rally
+932,Spyder GTS
+933,Evolution
+934,Kombi
+935,Campmobile
+938,Wolfsburg Edition
+939,GTI
+940,Syncro
+941,GTI 16-Valve
+942,GLI 16-Valve
+943,16-Valve
+944,Bestseller
+945,Boutique
+946,Carat
+947,G60
+948,GTI 8-Valve
+949,Etienne Aigner
+950,SLC
+951,MV
+952,Avant
+953,Camper
+954,GTI VR6
+957,Trek
+958,TDI
+959,Jazz
+960,K2
+961,GTI GLS
+962,GTI GLX
+963,Turbo S
+964,GTI 337
+965,W8
+966,GTI 20th Anniversary
+967,Sportcross
+968,SR5
+969,DLX All Trac
+970,LE All Trac
+971,XLE
+972,CE
+973,ST
+974,All Trac
+976,GTS All Trac
+977,Sport DLX
+978,Sport SR5
+979,Sport GTS
+981,FX16
+982,FX16 GTS
+983,SR5 All Trac
+984,VE
+985,XR
+986,XRS
+987,Super Charged
+988,Convertible
+989,DLX Turbo
+990,SR5 Turbo
+991,Twin Turbo
+992,Base Turbo
+993,EZ
+995,Wagon Crg
+996,Wagon DX
+997,Wagon LE
+998,Pre Runner
+999,XLC
+1000,1210
+1001,150
+1002,200
+1003,Supra
+1004,Arc
+1013,GTI 1.8T
+1014,Sigma
+1015,Sport Truck
+1018,Vantage
+1019,Volante
+1020,Vantage Volante
+1021,Quattrovalvole
+1022,Challenge
+1023,Modena
+1024,BB
+1025,Barchetta Pininfarina
+1026,Series Speciale
+1027,Cambiocorsa
+1028,BB Competizione
+1029,M Edition
+1030,STO
+1032,Shinsen
+1033,GT 4WS
+1034,i
+1036,GSL
+1038,Millennium Edition
+1039,GSL-SE
+1040,GXL
+1041,Base 2+2
+1042,GXL 2+2
+1043,LX 2+2
+1044,GTU
+1045,SE 2+2
+1046,GTUs
+1047,R1
+1048,R2
+1049,20v
+1050,20v Avant
+1051,Celebration Edition
+1052,City
+1054,Fifth Avenue
+1055,Pro-Am
+1057,GL-10
+1058,SRT-4
+1059,P118
+1061,DPL
+1062,SST
+1063,440
+1064,Rogue
+1065,550
+1066,770
+1067,MK IIIB
+1068,MK I
+1069,MK II
+1070,Zagato
+1071,Radford
+1072,V-8
+1081,H.J. Mulliner
+1082,James Young
+1083,Lux
+1084,225 Custom
+1085,225 Limited
+1086,300 Deluxe
+1087,Malibu
+1088,Nomad
+1089,Concours Estate
+1090,Greenbrier
+1091,Nova
+1092,95
+1093,Monza
+1095,Sportsman
+1096,Maxi
+1097,Maxi Wagon
+1098,T/A
+1099,Super Bee
+1100,270
+1101,Demon
+1102,Demon 340
+1103,Sport 340
+1104,Post Office
+1105,Power Wagon
+1106,Daytona
+1107,Racer
+1108,Wagon
+1109,Club Wagon
+1110,Chateau Wagon
+1111,Custom Wagon
+1112,Boss 429
+1113,Grande
+1114,Boss 351
+1115,Police Cruiser
+1116,Super Cobra Jet
+1117,M
+1118,MC
+1119,Commando
+1120,CJ-2
+1121,1-Ton
+1122,CJ-3
+1123,Jeepster
+1124,Sedan Delivery
+1125,CJ-5
+1126,CJ-6
+1127,DJ-3
+1128,FF
+1129,400GT
+1130,2
+1131,2S
+1132,Sprint
+1133,2S 130
+1134,S1
+1135,Twin
+1137,4.5
+1138,Boss 302
+1139,Cobra Jet
+1140,CJ
+1141,Spoiler
+1142,X-100
+1143,Cooper
+1144,Turnpike Cruiser
+1145,Kadett DLX
+1146,Gran Coupe
+1147,Satellite
+1148,340
+1149,Custom Suburban
+1150,Sport Suburban
+1151,Suburban
+1152,VIP
+1153,Sport GT
+1154,Voyager EX
+1155,Regent
+1156,Sebring
+1157,Sebring Plus
+1158,Signet
+1159,Ventura
+1160,T37
+1161,4
+1162,6
+1163,TC
+1164,Mark II
+1165,211
+1166,215
+1167,261
+1168,265
+1171,Town & Country
+1172,100 DL
+1173,100 E
+1174,100 LX
+1175,200 DL
+1176,200 E
+1177,200 LX
+1178,200 GT
+1179,4x4
+1180,EXI
+1181,EX-R
+1182,GL Deluxe
+1183,GLS Glory
+1184,Sport Deluxe
+1185,GSL Super
+1186,SL Deluxe
+1187,CL Deluxe
+1188,CXL Super
+1189,Vanden Plas
+1191,Precedia
+1193,D
+1194,Sport Coupe
+1195,FE
+1196,BR
+1197,SA
+1200,L 4x4
+1201,LS 4x4
+1202,V
+1203,LSX
+1204,BJ42
+1205,BJ60
+1206,BJ60LV-KK
+1207,BJ60LG-MK
+1208,BJ70
+1209,HJ60
+1210,LN56
+1211,RN60
+1212,LN55 DLX
+1213,LN76
+1214,RN63
+1215,LN67
+1217,RN02
+1218,YR32 DX
+1219,CV
+1220,Transport
+1221,GTX 16-V
+1222,GLX VR6
+1223,Bus
+1225,Custom L
+1226,GTX
+1227,4WD
+1228,Sundowner
+1229,Sundowner Sport
+1230,Sundowner Base
+1231,Sundowner DLX
+1232,Sundowner SE-5
+1233,SE-5
+1234,MP3
+1235,Mazdaspeed
+1236,LE-5
+1237,Turbo 4WS
+1238,Troy Lee
+1239,Cargo
+1240,Passenger
+1241,LXE
+1242,DS
+1244,Royale LSS
+1245,Turbo SE
+1246,S4s
+1252,Maxx
+1254,Sport Plus
+1257,FX4
+1258,SES
+1261,Ultimate
+1262,Ultimate L
+1274,H6 35th Anniversary Edition
+1275,XLE Limited
+1276,GLX 4 Motion
+1277,W12
+1278,2.4
+1279,2.5T
+1280,2.5T AWD
+1284,GL TDI
+1285,GLS TDI
+1286,WRX STI
+1287,H6 VDC
+1288,L 35th Anniversary
+1290,Z66
+1291,SVT Lightning
+1292,XT
+1293,Red Line
+1294,GT3
+1296,Sportback
+1297,RX-V
+1299,Tremor
+1300,NBX
+1302,Maxx LS
+1303,Maxx LT
+1304,XLS Sport
+1308,EV
+1321,L Custom
+1322,Ls Deluxe
+1327,4 Motion
+1328,Sport LS
+1329,Z71 LS
+1332,Chateau HD
+1333,Custom HD
+1334,XLT HD
+1335,XL HD
+1336,Laramie
+1337,Street Cruiser
+1338,Dream Cruiser
+1339,Ultimate Edition
+1340,Platinum Edition
+1341,Pacific Coast Roadster
+1342,XLT No Boundaries
+1343,XT Premium
+1344,XS L.L. Bean Edition
+1345,XT Limited
+1346,VDC Limited
+1347,R L.L. Bean Edition
+1352,ZXW
+1353,ZX4 ST
+1354,ZX4
+1355,R32
+1357,GLS 4 Motion
+1358,CXS
+1359,Special Value
+1360,Z85 LS
+1361,Z85
+1362,Z85 SL
+1363,Z71 SL
+1364,Z85 SLE
+1365,Z71 SLE
+1366,Z71 Fleet
+1368,GXP
+1369,SV6
+1370,Unlimited
+1371,Signature L
+1372,Signature Limited
+1374,Off-Road
+1375,Nismo Off-Road
+1377,CDI
+1378,T6 Premier
+1379,4.8is
+1381,Hemi Sport
+1382,Evolution RS
+1383,Evolution MR
+1384,Ralliart
+1385,SRT-6
+1386,X-Runner
+1387,Alpina
+1388,Unlimited Rubicon
+1389,C SRT8
+1390,SE Off-Road
+1391,Shinka
+1392,SXT Special Edition
+1393,Adrenalin
+1394,SP23
+1395,Grand Touring
+1396,GTLM
+1397,RTL
+1398,RT
+1399,Hybrid Limited
+1400,Daytona R/T
+1401,SRT8
+1402,Flying Spur
+1403,Alpha
+1405,Maxx LTZ
+1406,Maxx SS
+1407,Convenience
+1408,Designer Series
+1411,TRX4
+1412,DuroCross
+1413,X L.L. Bean Edition
+1414,Outback Sport
+1415,R VDC Limited
+1416,Club Spec
+1417,VDP Edition
+1418,Portfolio
+1419,Victory Edition
+1420,Supercharged
+1421,SX Premium
+1422,XSport
+1423,4.2i
+1424,5.3i
+1426,Adventurer
+1427,2.4i
+1428,LX Special Edition
+1429,RTS
+1430,LX-SV
+1431,2.0T
+1432,GT spec.B
+1433,Value Edition
+1434,3.6
+1435,65th Anniversary Edition
+1436,Roadster 3.0i
+1437,Roadster 3.0si
+1438,Executive GT
+1439,Coupe 3.0si
+1440,RTX
+1441,Shelby GT500
+1442,Classic LT
+1443,EL Eddie Bauer
+1444,EL Limited
+1445,EL XLT
+1449,WRX STI Limited
+1450,Ocean Race
+1451,V8 Ocean Race
+1452,Evolution SE
+1453,Unlimited Sahara
+1454,Unlimited X
+1455,Targa 4
+1456,Targa 4S
+1547,Land Cruiser
+1548,Regal Deluxe
+1549,Gran Deluxe
+1550,Barchetta
+1551,Spyder Corsa
+1552,Freccia d'Oro
+1553,Villa D'Este
+1554,Continental
+1555,Skyway
+1556,Deluxstyle
+1557,Delux-Tone
+1558,Super
+1559,Standard
+1560,Ventoux
+1561,Stelvio
+1562,Speed Model
+1563,Normale
+1564,S Sport
+1565,Targa Florio
+1566,Mate
+1567,Master
+1568,Torpedo
+1569,DA 1
+1570,DA 2
+1571,First Series
+1572,Second Series
+1573,SS Supercharged
+1574,Light Six
+1575,Auto Wagon
+1576,5000 quattrovalvole
+1577,Green Label
+1578,Premiere
+1579,Appearance
+1580,SE 20th Anniversary Edition
+1581,ES Limited
+1582,Guard
+1583,Mulliner
+1586,Spec
+1587,Green Line
+1588,3.0si
+1589,LP640
+1590,Fiorano
+1591,FX2
+1592,Rocky Mountain Edition
+1593,3.2
+1594,S-Runner
+1595,TRD Special Edition
+1596,4.8i
+1597,V8 Sport
+1600,Super 90
+1601,Constellation
+1602,Caribbean Custom
+1603,Mayfair
+1604,Country Sedan
+1605,Custom Constellation
+1606,Panama
+1607,Super Panama
+1608,Town Sedan
+1609,Pacific
+1610,Corporate
+1611,400
+1612,880
+1613,990
+1614,Custom 400
+1615,330
+1616,440H
+1617,Panel Delivery
+1618,660
+1619,SC/360
+1620,SST Mark Donohue
+1621,SST Trans Am
+1622,Hurst SC/Rambler
+1623,The Machine
+1624,250
+1625,600
+1626,700
+1627,700CS
+1628,350
+1630,Fleetmaster
+1631,Type S-3
+1632,Phoenix
+1633,Inter
+1634,Sports
+1635,500XL
+1636,Futura Sprint
+1637,Fleet Special
+1638,Vagabond
+1639,Virginian
+1640,Pullman
+1641,404
+1642,S-22
+1643,S-33
+1644,Custom S-55
+1645,S-55
+1646,Fleet
+1647,Rebel
+1648,Special Savoy
+1649,Gran Sedan
+1650,S-23
+1651,Custom Safari
+1652,Custom Safari Transcontinental
+1653,Super Deluxe
+1654,350 HO
+1655,The Judge
+1656,Safari Luxury
+1657,GTO
+1658,WRX TR
+1659,2.5i Special Edition
+1660,2.5i Limited
+1661,2.5i Basic
+1662,Bristol
+1663,Super Berlina
+1664,Super Sprint
+1665,Berlina
+1666,Speciale
+1667,SZ
+1668,TI
+1669,TI Super
+1670,Berlinette
+1671,Spider Super
+1672,Spider Veloce
+1673,Sprint Speciale
+1674,Sprint Veloce
+1675,Sprint Zagato
+1676,GT4
+1677,R Type
+1678,Legere
+1679,Century
+1680,Consort
+1681,TV
+1682,Lotus
+1683,12M
+1684,12M Super
+1685,15M
+1686,17M
+1687,Type 48
+1688,PW
+1689,B10
+1690,Farina
+1691,Vignale
+1692,B12
+1693,B15
+1694,B20
+1695,B20 Series 2
+1696,B20 Series 3
+1697,B21
+1698,B22
+1699,B24 Spider
+1700,GT 2500
+1701,Zagato Sport
+1702,HPE Rally
+1703,S2 A
+1704,S2 Cosworth
+1705,Super Sports
+1706,1000
+1707,1000TT
+1708,110
+1709,30
+1710,1100
+1711,IV
+1712,IV GT
+1713,Le Mans
+1714,MK IIA
+1715,IIIA
+1716,Corsa
+1717,Lakewood
+1718,Monza Spyder
+1719,F2
+1720,F2S
+1721,FV3
+1722,FV2
+1723,FV3B
+1724,FV2B
+1725,FV4
+1726,Shelby GT
+1727,L Ultimate
+1728,L Luxury
+1729,2.00E+12
+1730,3.00E+11
+1731,5.00E+11
+1732,6.00E+10
+1733,7.00E+10
+1734,8.00E+10
+1735,2.00E+05
+1736,2.00E+07
+1737,3.00E+12
+1738,3.00E+05
+1739,3.00E+06
+1740,3.00E+07
+1741,3.00E+01
+1742,4.00E+11
+1743,4.00E+01
+1744,4.00E+12
+1745,4.00E+07
+1746,4.00E+02
+1747,4.00E+03
+1748,5.00E+12
+1749,5.00E+05
+1750,5.00E+06
+1751,5.00E+07
+1752,6.00E+12
+1753,6.00E+05
+1754,6.00E+07
+1755,7.00E+12
+1756,7.00E+05
+1757,7.00E+07
+1758,8.00E+12
+1759,8.00E+05
+1760,8.00E+07
+1785,DU
+1786,DUL
+1787,DULF
+1788,EUL
+1789,EULF
+1790,B
+1791,FL
+1792,DUF
+1793,DU6
+1794,DUL6
+1795,EUL6
+1796,Utility Wagon
+1797,Metroette
+1798,Metro-Mite
+1799,Travelall Custom
+1800,500 XL
+1801,Travelall
+1857,3800
+1863,3700
+1874,3600
+1878,3400
+1885,3200
+1896,Bluetec
+1983,Barker
+1984,Briggs
+1985,Phase I
+1986,MK V
+1987,346
+1988,MK VI
+1989,MK VII
+1990,Series I
+1991,234
+1992,236
+1993,MK VIII
+1994,Anzani
+1995,Excelsior
+1996,MK VIIIA
+1997,Oceane
+1998,Plein Ciel
+1999,T603
+2000,346 Limousine
+2001,Minor
+2002,Allemano
+2003,Record Monza
+2004,Series III
+2005,Series IIIA
+2006,Series IA
+2008,Series IIIB
+2009,Monte Carlo
+2010,Nice
+2011,Tiger
+2012,2000 GT
+2013,Series IIIC
+2014,Town Custom
+2015,Series IV
+2016,Series V
+2017,Competition
+2018,2-603
+2019,Bialbero
+2020,OT
+2021,OTR
+2022,OTS
+2023,GTE
+2024,3 Litre
+2029,GT3 RS
+2030,LX Anniversary Edition
+2031,700 Sport
+2032,Nismo
+2033,Funkmaster Flex Edition
+2040,Superleggera
+2068,PRO-4X
+2074,2.5i L.L. Bean Edition
+2075,Sports 2.5 X
+2076,Sports 2.5 XT
+2077,3.0 R Limited
+2078,Black Series
+2079,LT Panel
+2080,LS Panel
+2081,GT Speed
+2082,Journey
+2087,S Limited Edition
+2088,Drophead Coupe
+2089,SCX
+2090,CR
+2091,MUGEN Si
+2092,TRX
+2093,Scuderia
+2102,WRX Limited
+2104,Bullitt
+2105,Komfort
+2106,VR6
+2107,Trail Teams Special Edition
+2108,2.5i Limited L.L. Bean Edition
+2109,Deluxe Eight
+2110,Deluxe Six
+2111,Eight
+2112,Six
+2113,Special Six
+2114,EL King Ranch
+2115,EWB
+2116,One-Ton
+2117,EX-L
+2118,Evolution GSR
+2119,Clubman
+2120,S Clubman
+2121,4Matic Sport
+2122,4Matic Luxury
+2123,X Limited
+2124,X Premium
+2126,xDrive35i
+2127,Premium Luxury
+2128,Shelby GT500KR
+2129,Pure
+2130,Passion
+2131,427 Limited Edition Z06
+2132,SRT-10 ACR
+2133,xDrive50i
+2134,Sport Edition
+2135,Sport V6
+2145,Passion Cabrio
+2148,S Special Edition
+2149,ALMS Edition
+2150,ZX2 S/R
+2151,Aero XWD
+2152,Turbo X
+2153,Max Eddie Bauer
+2154,Max Limited
+2155,XTR
+2156,DX-G
+2157,SE-L
+2158,RS 60 Spyder
+2159,GLS Sport
+2160,X Sport
+2161,S 240
+2162,Sport GT S
+2163,3.0 R
+2164,2.5 XT
+2165,2.5 X
+2166,2.5 XS
+2167,2.5 XS Premium
+2168,3.2 Sport
+2176,North Edition
+2177,EX Convenience
+2178,EX Sport
+2179,EX Luxury
+2180,EX Premium
+2181,EX Power
+2182,LX Convenience
+2183,LX Premium
+2184,LX Luxury
+2185,GT-P
+2186,Spyder GT-P
+2189,SiR
+2190,ZR1
+2191,LP560-4
+2192,3.8
+2193,4.6
+2194,SS Panel
+2196,Flying Spur Speed
+2197,Bluetec 4Matic
+2198,LX-P
+2199,LX-S
+2200,Limited Hybrid
+2201,2.5 GT
+2202,SH-AWD
+2203,R3
+2205,RMZ-4
+2206,VR6 4Motion
+2213,One-Ton DLX
+2214,1.6
+2215,xDrive35d
+2216,HSE Lux
+2217,John Cooper Works
+2218,John Cooper Works Clubman
+2221,xDrive30i
+2222,xDrive48i
+2223,Competizione
+2224,Krom
+2225,+
+2226,!
+2227,Big Horn
+2228,Lone Star
+2229,Premium Plus
+2230,Prestige
+2231,sDrive30i
+2232,sDrive35i
+2233,Championship Series
+2234,2.0T Premium
+2235,2.0T Track
+2236,3.8 Grand Touring
+2237,3.8 Track
+2238,2.0T R-Spec
+2239,SVT Cobra 10th Anniversary
+2240,CXL Special Edition
+2241,T5 R-Design
+2242,Titanium
+2430,Distinctive
+2431,Confort
+2432,Elegance
+2433,Deportivo TI
+2434,JTS
+2435,JTS Q4
+2436,Ambition
+2437,Attraction
+2438,Ambiente
+2439,Avant Confort
+2440,Avant Luxury
+2441,Basico
+2442,Advance
+2443,Cabrio
+2444,Vangard
+2445,S Line
+2446,Attraction Plus
+2447,S Line Sport
+2448,Trendy
+2449,Luxury AA Plus
+2450,DTM
+2451,Classic Edition
+2452,X Aniversario
+2453,Cabrio Elite
+2454,Cabrio S Line
+2455,Trendy Plus
+2456,TDI Elite
+2457,TDI Luxury
+2458,2.8i
+2459,1.9i
+2460,4.4i Lujo
+2461,4.4i Top Line
+2462,2.0i
+2463,2.2i
+2464,4.4i Formula 1
+2465,Business
+2466,Dynamic
+2467,Formula 1
+2468,Top
+2469,M Sport
+2470,2.5si
+2471,4.8i Premium
+2472,Sport Limited Edition
+2473,xDrive30i M Sport
+2474,xDrive48i M Sport
+2475,xDrive35iA
+2476,xDrive50iA
+2477,Lujo
+2478,Tipico
+2479,Joy
+2480,Swing
+2481,400 SS
+2482,60th Anniversary
+2483,Heavy Duty
+2484,Taxi
+2485,World Cup
+2486,Delux
+2489,Austera
+2490,Comfort
+2491,Popular
+2492,Monza Low Cost
+2493,Pop
+2494,Swing Pop
+2495,EXT B
+2496,Q
+2497,Comfort LT
+2498,Elegance LT
+2499,Edicion Especial
+2500,Monocab
+2501,Essentia
+2502,Conveniencia
+2503,Juvenil Lujo
+2504,Juvenil Tipico
+2505,LH
+2506,Equipado
+2507,LX Base
+2508,LX Equipada
+2509,Dream Edition
+2511,Equipada
+2512,LX Family Comfort Edicion Especial
+2513,C Heritage
+2514,Street Cruiser Route 66
+2515,C Heritage Edition II
+2516,C Lujo
+2517,Street Cruiser Pacific Coast Highway Edition
+2518,Touring Equipada
+2519,Touring Premium
+2520,Runner
+2521,ES Lujo
+2522,GV
+2523,GVSS
+2524,SLT Daytona
+2525,SLT Night Runner Sport
+2526,SLT Sport
+2527,SXT Premium
+2528,SRT8 Super Bee
+2529,ATX
+2530,MTX
+2531,SLT Premium
+2532,SXT Sport
+2533,SLT Big Horn
+2534,Lujo HL
+2535,Lujo SL
+2536,Challenge Stradale
+2537,Adventure
+2538,ELX
+2539,1.8R
+2540,Climbing
+2541,Schumacher
+2542,ML
+2543,Active
+2544,Dynamic Turbo
+2545,Sport Turbo
+2546,Adventure S
+2547,Adventure ST
+2548,Adventure SX
+2550,Lounge
+2551,Vintage
+2552,Aust
+2553,Equi
+2554,GT Equippe
+2555,Mid
+2556,GL Plus
+2557,Power
+2558,XLT VIP
+2559,High
+2560,LS VIP
+2561,Deportivo
+2562,Deportivo Equi
+2565,SE Equi
+2566,ZX2 Equi
+2567,ZX2 Tipico
+2569,Budget
+2570,Flair
+2571,Fun
+2572,Semi-Equipado
+2574,XLT Chateau
+2578,L PS
+2579,Ikon Base
+2580,Ikon Mid
+2581,Core
+2582,Trend
+2583,Manual
+2585,First
+2586,Trend Comfort
+2587,Base Taxi
+2589,Racing
+2590,Flotillera
+2591,Austero
+2592,Harley Centenario
+2593,Sport FX4
+2594,ST220
+2595,GT Base
+2596,GT Equipado
+2597,XLT Deportivo
+2598,SEL Premium
+2599,LX Austero
+2600,SE Tipico
+2601,SEL Plus
+2602,SVP
+2603,SVP Edicion Limitada
+2604,Eddie Bauer Max
+2605,Doble Cab
+2606,Cab Reg
+2607,Cromo
+2608,Lariat Cromo
+2609,2500D
+2610,2500E
+2611,2500S
+2612,3500D
+2613,3500E
+2614,3500S
+2615,5500S
+2616,CC
+2617,KCA
+2618,KCC
+2619,EX-R SIR
+2620,EX Special Edition
+2621,EXL
+2622,EXS
+2623,LXS
+2624,LX SE
+2626,Premium TA
+2627,TA
+2628,60 Aniversario
+2629,X AT
+2630,Limited Premium
+2631,65 Aniversario
+2632,Sport 65 Aniversario
+2633,X 65 Aniversario
+2634,Sport Edicion Especial
+2635,Sky Slider
+2636,HSE Premium
+2637,SE Premium
+2638,Premium Sport
+2639,Sport Premium
+2640,Designer
+2641,111
+2642,111s
+2643,111R
+2644,Spark
+2645,Evoluzione
+2646,Clasico
+2647,Kompressor Elegance
+2648,Kompressor Sport
+2649,Avantgarde
+2650,Kompressor Classic
+2651,Classic Plus
+2652,Kompressor Avantgarde
+2653,Kompressor Evolution
+2654,316 CDI
+2655,416 CDI
+2656,Introduction
+2657,315 CDI
+2658,415 CDI
+2659,515 CDI
+2660,Chili
+2661,Pepper
+2662,S Chili
+2663,S Hot Chili
+2664,S Salt
+2665,Salt
+2666,Checkmate
+2667,Park Lane
+2668,S Checkmate
+2669,S Park Lane
+2670,Seven
+2671,S Sidewalk
+2672,LS V6
+2673,XLS Touring
+2674,Family
+2675,ES Diamond
+2676,LS Diamond
+2677,XLS Premium
+2678,GT SE
+2679,2000 GSR
+2680,GLE-E
+2681,GSS
+2682,GS I Austero
+2683,Tipico Plus
+2684,GS I Plus
+2685,GS II
+2686,GS II Plus
+2687,GS II Austero
+2688,GS I Taxi
+2689,Grado A
+2690,Grado K
+2691,Grado K Plus
+2692,Grado Q
+2693,GXE Sport
+2695,Convenient
+2696,GS I
+2697,SE Elite
+2698,SE Touring
+2699,SL Luxury
+2700,SL Premium
+2701,GS I Edicion Especial
+2702,LE Luxury
+2703,SL Special Edition
+2704,XE SE
+2705,XE SE Edicion Especial
+2706,GS I Special Edition
+2707,Emotion
+2708,SLX Special Edition
+2709,DV
+2710,Tracking
+2711,Break
+2712,XR Break
+2713,XT Break
+2714,ST Ambiance
+2715,Pack
+2716,Moonlight
+2717,SW
+2718,X-Design
+2719,XSI
+2720,CC Kit Look
+2721,CC Quicksilver
+2722,Feline
+2723,Quicksilver
+2724,SW Quicksilver
+2725,X Line
+2726,Xbox
+2727,X-Line
+2728,CC RC Line
+2729,CC Dynamique
+2730,SW Pack
+2731,SW X-Line
+2732,XS Pack
+2733,XS-line
+2734,Doble PLC Pack
+2735,PLC
+2736,PLC Pack
+2737,CC Roland Garros
+2738,D-Sign
+2739,Nokia Music Edition
+2740,RC
+2741,Totem
+2742,Compact Feline
+2743,Compact Trendy
+2744,Compact Urban
+2745,Maya
+2746,Cargo Pack
+2747,GT Milenio
+2748,S Porsche Design 2
+2749,S Porsche Design
+2750,Authentique
+2751,Expression
+2752,Renault Sport
+2753,MTV
+2754,Grand Tour
+2755,Privilege
+2756,Fairway
+2757,Blue Edition
+2758,Initiale
+2759,Kit Dynamique
+2760,Campus
+2761,Team Renault Sport
+2762,Exception
+2763,SportWay
+2764,Code
+2765,Trophy Sport
+2766,Isotermica
+2767,Pack Isotermica
+2768,Coupe Cabriolet
+2769,Beat
+2770,Energy
+2771,Dynamique
+2772,Coupe Cabriolet Black Edition
+2773,Coupe Cabriolet Expression
+2774,Amor Amor
+2775,Extreme
+2776,Ride
+2777,Dynamique Open Sky
+2778,Expression Pack
+2779,Genea
+2780,Trends
+2781,Coupe Cabriolet Dynamic Turbo
+2782,Connoiseur
+2783,Comfort Edition
+2784,Tourer
+2785,Luxury Line
+2786,Contemporary
+2787,Aero 60 Aniversario
+2788,Aero Sport
+2789,Linear Lujo
+2790,Linear Premium
+2791,Stella
+2792,Signo
+2793,Surf
+2794,Cupra R
+2795,Reference
+2796,Stylance
+2797,Cupra
+2798,FR
+2799,Blitz
+2800,Fresc
+2801,XSS
+2802,FR Last Edition
+2803,2.0T FSI
+2804,Sport Up
+2805,Sport Up WTCC
+2806,Cupra Copa Edition
+2807,Brabus
+2808,Crossblade
+2809,Roadster Coupe
+2810,Pulse
+2811,RX 320
+2812,XSL
+2813,2.0R
+2815,SWT
+2816,SOL
+2818,Base Prerunner
+2819,SR5 Prerunner
+2820,TRD Sport Prerunner
+2821,Base Premium
+2822,SR5 Premium
+2823,Pasillo
+2824,Banca
+2825,Manhattan
+2826,1600I
+2827,GL Jeans
+2828,Atlanta
+2829,Europa
+2830,Cerr Central
+2831,MI
+2832,GLS Confort
+2833,GLS VR6
+2834,VR6 Carat
+2835,1.8T
+2836,GLS Turbo
+2837,GLX Turbo
+2838,Verano
+2839,GL Confort
+2840,Estilo
+2841,Jeans
+2842,GLX Sport Turbo
+2843,GTI Turbo
+2844,GL Variant
+2845,GLS Variant
+2846,GLS Wolfsburg
+2847,GLS Sport Turbo
+2848,Final Edition
+2849,Sportline
+2850,Trendline
+2851,Confortline
+2852,Highline
+2853,Variant Comfortline
+2854,Variant Trendline
+2855,V6 4Motion
+2856,Comfortline
+2857,Comfortline Lujo
+2858,GLS Edicion especial
+2859,Edicion Limitada
+2860,Europa Wolfsburg
+2861,Trendline Wolfsburg
+2862,Summer
+2863,Europa 50 Aniversario
+2864,GLI 50 Aniversario
+2865,V6 Premium
+2866,Summer Edition
+2867,Sport GLX
+2868,Exclusive
+2869,475 Aniversario
+2870,Soccer 1
+2871,Soccer 2
+2872,Winter 1
+2873,Winter 2
+2874,10 Anos
+2875,Hot Wheels
+2876,Alaska
+2877,Sportwagen
+2878,GT BT
+2879,V6 TDI
+2880,T4
+2881,T6 Executive
+2882,2.4T SE
+2884,T6 Anniversary
+2886,T5 Elegance
+2887,T5 Sport
+2888,V8 Premier
+2889,T5 Addition
+2890,T5 Inspiration
+2891,T5 Kinetic
+2892,3.2 R-Design
+2893,V8 R-Design
+2894,2
+2895,3
+2896,EcoBoost
+2897,Blue
+2898,SVT Raptor
+2900,Unlimited Sport
+2901,L Supercharged
+2902,Supersport
+2903,L Supersport
+2904,1.6 Base
+2905,Cabela's
+2907,Evolution MR Touring
+2908,Ralliart Sportback
+2909,GTS Sportback
+2910,GS Sport
+2911,Trail
+2912,Hybrid Platinum
+2914,Denali Hybrid
+2915,2.5GT
+2916,3.6R
+2919,4S
+2920,XFE
+2921,Hybrid 4Matic
+2922,2.5i Premium
+2923,WRX Premium
+2924,ActiveHybrid
+2925,xDrive28i
+2927,LT Team Canada
+2928,Signature Series
+2929,Max King Ranch
+2930,NHL SE
+2931,VP
+2932,2.0T GT
+2933,3.8 GT
+2934,S Limited
+2935,X-S
+2936,2u
+2937,4u
+2938,4u Burner
+2939,4u Retro
+2940,4u SX
+2941,Ultra Premium
+2942,Griffin
+2943,X Touring
+2944,2.5i Touring
+2945,3.0 R Premier
+2946,2.5i Sport
+2947,Highline V6
+2948,Execline
+2949,GTC Speed
+2950,LP560-4 Spyder
+2951,LP550-2 Valentino Balboni
+2953,LP670-4 SV
+2954,S Zeppelin
+2955,S Landaulet
+2958,Unlimited Mountain
+2959,Detonator
+2960,Heat
+2961,Shock
+2962,Crew
+2964,Uptown
+2965,Mainstreet
+2966,Rush
+2967,Couture Edition
+2969,Walter P. Chrysler Signature Series
+2970,sDrive35is
+2972,Touring L
+2973,Touring GLS
+2974,Touring SE
+2975,Touring GL
+2977,WRX STI Special Edition
+2978,Z06 Carbon
+2979,Eco
+2980,EL XL
+2981,Max XL
+2982,XLT Premium
+2983,S Hybrid
+2984,S Krom
+2985,3.8 R-Spec
+2987,Silver Edition
+2988,Touring Elite
+2989,Lariat Limited
+2990,XT Touring
+2991,Sport SLS
+2992,Latitude X
+2993,Latitude
+2997,PPV
+2998,SRT
+2999,Carrera GTS
+3000,LP570-4 Superleggera
+3001,S ALL4
+3002,CrossCabriolet
+3003,GT2 RS
+3004,Citadel
+3005,Turbo6
+3006,Turbo4
+3007,1/2 Ton
+3008,3.5
+3010,3100
+3011,3500
+3012,3900
+3013,3.00E+10
+3014,3E11D
+3015,3E12D
+3016,3.00E+13
+3017,3.00E+14
+3018,3E6D
+3019,3E7D
+3020,463
+3021,473
+3022,Aerobus
+3023,B24
+3024,CJ-3 Chassis
+3025,Del Ray
+3026,DeVille
+3027,EU
+3028,F
+3029,FJ
+3030,LeMans
+3033,Sereies III
+3034,Shelby GT-350
+3035,Shelby GT-350H
+3036,Shelby GT-500
+3037,Shelby GT-500KR
+3038,Truck
+3039,Voyager EX Wagon
+3040,Electric Drive
+3042,LP550-2
+3043,Tradesman
+3044,3.6R Limited
+3045,3.6R Premium
+3046,VR6 Sport
+3047,Fahrenheit
+3048,MPG
+3049,R-Line
+3050,Sport GS
+3051,Sport GX
+3052,SXT Plus
+3053,R/T Road and Track
+3054,SE Canada Value Package
+3055,Canada Value Package
+3056,Outdoorsman
+3057,GL Premium
+3058,TDI Comfortline
+3059,TDI Highline
+3060,GT Sportback
+3061,SE Sportback
+3062,JLX-L
+3063,Spyder GS Sport
+3064,Spyder SE
+3065,Laramie Longhorn
+3067,5.0 R-Spec
+3068,Yozora
+3069,ZL1
+3070,Electric
+3071,TDI Cup Edition
+3073,Crossover
+3074,Sport S
+3075,Sport SE
+3076,2.0T Limited
+3077,Brabus Cabrio
+3078,IPL
+3079,sDrive28i
+3080,c Pop
+3081,c Lounge
+3082,Jet
+3083,1.6 S
+3084,1.6 SL
+3085,1.6 SV
+3086,1.8 S
+3087,1.8 SL
+3091,Crew Plus
+3093,Black Edition
+3094,AVP
+3095,R/T Classic
+3096,Laredo E
+3097,Laredo X
+3098,TDI Premium
+3099,TDI Premium Plus
+3100,TDI Prestige
+3101,Sport Limited
+3102,Lux Limited
+3103,Lux Plus
+3106,TDI SE
+3107,TDI SEL
+3108,TDI Executive
+3109,TDI Lux
+3110,TDI Sport
+3111,V6 Executive
+3112,V6 Lux
+3113,V6 Sport
+3114,ES Sportback
+3117,GT3 RS 4.0
+3118,S Transsyberia
+3119,LE Anniversary Edition
+3124,L Portfolio
+3125,S Black Edition
+3126,Hybrid LE
+3127,Hybrid XLE
+3128,Ultimate Adventure Edition
+3129,Supersports
+3130,LP700-4
+3131,LP550-2 Spyder
+3132,LP570-4 Performante Spyder
+3133,Overland Summit
+3134,Grand Edition
+3135,L W12
+3136,Carrera 4 GTS
+3137,Coupe John Cooper Works
+3139,Coupe S
+3141,Roadster John Cooper Works
+3142,Spinnaker Edition
+3143,Plug-In
+3144,Expo
+3145,GT Spyder
+3148,Hybrid-L
+3150,GS-SKY
+3151,Sportback Ralliart
+3152,Silverstone
+3153,T6 R-Design
+3155,Urban
+3156,JE
+3157,Execline TDI
+3158,Highline TDI
+3159,Comfortline TDI
+3160,Trendline TDI
+3161,F Sport
+3162,AWD V6
+3165,SX Luxury
+3169,4u Luxury
+3170,LX+
+3171,Hybrid Premium
+3172,Si HFP
+3173,DX-A
+3174,HFP
+3175,A-Spec
+3176,3.6L
+3178,Abarth
+3179,427
+3184,SE Hybrid
+3186,Tradesman HD
+3187,SXL
+3188,Laramie Limited
+3196,70th Anniversary
+3274,Quadrifoglio Verde
+3275,Cool
+3276,Ego
+3277,Envy
+3278,Sport One
+3280,Union Square
+3281,F1
+3282,Top Active Dynamic
+3283,Gran Turismo
+3284,Active Dynamic
+3285,xDrive2.5i
+3286,Navi
+3287,Progresive
+3289,Sport Line
+3290,Urban Line
+3291,Edition Exclusive
+3292,Modern
+3293,sDrive20i
+3295,1LT
+3296,1SS
+3297,2SS
+3298,Crew Luxe
+3299,STX-L
+3300,Trekking
+3301,Gucci
+3302,Prima Edizione
+3303,XLT Base
+3304,Limited Plus
+3305,Unlimited Altitude
+3306,I Touring
+3307,Sport AMG
+3308,Camden
+3309,Early Grey
+3310,Hot Chili
+3311,Laurel
+3312,Ray
+3313,S Camden
+3314,S Laurel
+3315,S Mayfair
+3316,All Black
+3317,S Clubman Hampton
+3318,S Redcliffe
+3319,S Yours
+3320,Yours
+3324,Drive
+3325,Sense
+3326,Origin
+3327,WIFI
+3328,Millesim
+3329,Allure
+3330,Roland Garros
+3331,XL Style
+3332,Bocanegra
+3333,MHD
+3334,Pearlgrey
+3335,Sharpred
+3336,XT Sports
+3337,TRD Sport
+3338,Native
+3339,Track & Fun
+3340,Entry
+3341,Startline
+3342,Bicentenario
+3343,Sport & Style
+3344,Addition
+3345,Inspiration
+3346,Kinetic
+3347,Basic
+3348,R-Design
+3349,Sport 2.0T
+3350,Pickup
+3351,Black Diamond LS
+3352,Black Diamond LT
+3353,Black Diamond LTZ
+3354,Hybrid Prestige
+3355,c Gucci
+3356,Cab-and-Chassis
+3357,Autobiography
+3358,Hybrid SE
+3359,Hybrid SEL
+3360,HFE
+3365,John Cooper Works GP
+3366,Hybrid Trendline
+3367,Hybrid Comfortline
+3368,Hybrid Highline
+3370,John Cooper Works ALL4
+3371,LP700-4 Roadster
+3372,LP570-4 Super Trofeo Stradale
+3373,Abarth Cabrio
+3374,Unlimited 70th Anniversary
+3375,Desert Runner
+3378,GT V8
+3379,GTC V8
+3380,Supersports ISR
+3381,Li
+3382,Titanium Plus
+3384,Fender
+3385,X-Box
+3386,X Convenience
+3387,Sport-tech
+3388,2.5i Convenience
+3392,3.0L AWD
+3394,Tech
+3396,V6 Tech
+3397,North
+3398,C Luxury
+3400,R/T Rallye
+3402,Energi SE
+3403,Energi Titanium
+3404,Baker Street
+3405,Bayswater
+3407,Oxford Street
+3408,Reserve
+3409,Reventon
+3410,Grand Sport Vitesse
+3411,Track Edition
+3412,Summit
+3413,Titanium Hybrid
+3414,2.0XT Premium
+3415,2.0XT Touring
+3416,Access
+3417,Tepee
+3419,L TDI
+3420,V8 S
+3421,Vsport
+3422,Special Service
+3423,AMX
+3424,Trailhawk
+3425,Iceshine
+3426,Pink Fever
+3427,Limited Platinum
+3428,Natural Gas
+3430,Z/28
+3431,Nova SS
+3434,Hybrid Sport
+3437,2.0XT Limited
+3438,Protection Series
+3439,Starliner
+3440,Sunliner
+3441,Club Victoria
+3442,Town Victoria
+3443,Brougham Commercial Chassis
+3444,Energi SEL
+3447,Vsport Premium
+3448,Sun Valley
+3450,Platinum Hybrid
+3451,SL Hybrid
+3452,SV Hybrid
+3453,TDI R-Line
+3454,V6 R-Line
+3455,TDI SEL Premium
+3456,Li'l Red Express
+3457,Warlock
+3458,Rallye Redline
+3459,2.0i Sport
+3460,Vogue
+3461,1794 Edition
+3462,Warlock II
+3463,Vogue SE
+3464,Driver's Edition
+3465,Le Eco Plus
+3467,3.7
+3468,5.6
+3469,Sport 2.5
+3470,Livery
+3471,Cityflame
+3472,Tsurugi Edition
+3473,4S Executive
+3474,Turbo Executive
+3475,Super Sport
+3476,3.0T
+3477,1
+3478,3
+3479,I Sport
+3480,Edition 507
+3484,LP570-4 Squadra Corse
+3485,S Q4
+3486,Comfort TDI
+3488,Turbo S Executive
+3489,Easy
+3490,Turbo R-Spec
+3491,SE 30th Anniversary Edition
+3492,SXT 30th Anniversary Edition
+3493,American Value Package
+3494,30th Anniversary Edition
+3495,Hybrid EX-L
+3496,Hybrid Touring
+3497,Leather
+3498,EcoChic
+3499,EcoSport
+3500,EcoStandard
+3502,sDrive18i
+3503,Design Pure Traction
+3504,Premier Edition
+3506,Pursuit
+3507,C F Sport
+3508,Z51
+3509,Green Park
+3510,Hyde Park
+3511,Range Extender
+3512,Hybrid EX
+3513,Hybrid LX
+3514,Vsport Platinum
+3518,S HighGate
+3519,3.8 Ultimate
+3520,SX Turbo
+3521,Nismo RS
+3522,Launch Edition
+3523,Excellence
+3525,GQ
+3526,Willys Wheeler
+3527,Unlimited Willys Wheeler
+3528,L Executive
+3529,Midnight
+3532,xDrive28d
+3533,Technology
+3534,iTech
+3535,Autobiography Dynamic
+3536,Sport Hybrid SH-AWD
+3537,EL Platinum
+3538,ZMX
+3539,DOT
+3540,Seduction
+3541,Momentum
+3542,Momentum RD
+3543,Addition Plus
+3544,Perfection
+3545,1.6 S Plus
+3547,GT V8 S
+3548,GTC V8 S
+3550,XSE
+3551,LE Eco
+3553,Scat Pack
+3554,LE Plus
+3555,Progressiv
+3556,Technik
+3557,Autobahn
+3558,TDI S
+3559,Hybrid SEL Premium
+3560,TDI Edition X
+3562,S E-Hybrid
+3564,I Limited
+3565,Hybrid EX Premium
+3566,Series.Blue
+3568,Sportdesign
+3569,Aozora Edition
+3570,One
+3571,Two
+3572,Three
+3573,Four
+3574,Byte
+3575,sDrive20iA
+3576,sDrive18iA
+3577,Hit
+3578,Crossroad
+3579,3.6R Touring
+3580,Ultimate 2.0T
+3581,SRT Hellcat
+3582,SRT 392
+3583,R/T Plus
+3584,SSV
+3585,Five
+3586,Touring Sport
+3587,VR6 4Motion Executive
+3588,LP610-4
+3589,TRD Pro
+3592,Progressive
+3594,TDI Technik
+3595,2.0T Luxury
+3596,3.0L AWD Luxury
+3597,3.0L AWD Sport
+3598,Executive 4 Motion
+3600,GT Premium
+3601,GT 50 Years Limited Edition
+3602,EcoBoost Premium
+3604,Autobiography Black
+3605,TDI Komfort
+3606,Mobility
+3607,Touring Piel
+3608,SLT1
+3609,SLT2
+3610,Targa S
+3611,SE Limited Edition
+3612,Hybrid XLE Premium
+3613,Hybrid XLE Touring
+3614,XLE Touring
+3615,XLE Premium
+3616,XLE Touring SE
+3617,Routier
+3618,Mirage S
+3619,Mirage L
+3620,L Diesel
+3621,C Platinum
+3622,T6 Momentum
+3623,T6 Inscription
+3624,Limited 2.0T
+3625,Fuel Cell
+3626,i-Style
+3627,L Reserve
+3628,Nevada
+3629,Club Cab
+3630,Sportline TDI
+3631,GLI SE
+3632,GLI SEL
+3633,R/T Scat Pack
+3634,Tradesman SLT
+3635,Vento
+3911,RE:FLEX
+3912,Pro
+3913,400 Turbo
+3920,6 Man
+4089,R/T Road & Track
+4096,Extravagance
+4097,Attractive
+4098,Way
+4099,HEV
+4100,GLI Autobahn
+4101,Trend Sport
+4102,Trekking Plus
+4103,Black Label
+4104,Black Label Hybrid
+4105,C3
+4106,Estacas
+4107,RAM
+4108,Prospector
+4109,RD
+4110,Mirage TX
+4111,Volare
+4125,Black Line
+4127,Citybeam
+4130,GT Limited Edition 3
+4131,GT Limited Edition
+4132,T6 R-Design Platinum
+4133,T5 Premier
+4134,T5 Premier Plus
+4135,T5 Platinum
+4137,T6 Premier Plus
+4138,T6 Platinum
+4139,T6 Polestar
+4140,Rally Edition
+4161,SE Appearance
+4162,Unlimited Hard Rock
+4163,2.0i Limited
+4164,Cross
+4167,Nismo Tech
+4168,Sport Tech
+4169,Select
+4170,R-Sport
+4171,Epic
+4172,Uniq
+4173,Targa 4 GTS
+4174,Edition
+4175,4 Edition
+4176,XLE Plus
+4177,Hybrid XLE Plus
+4178,SVR
+4181,T5 R-Design Special Edition
+4182,GLI Carat
+4183,Speed
+4184,HSE Luxury
+4185,BOSE
+4186,Vorsprung
+4187,HSE Dynamic
+4190,TDI Prestige S-Line
+4191,TDI Premium Plus S-Line
+4192,Range Extender Mobility
+4193,L Select
+4277,c Easy
+4284,TDI Progressiv
+4286,Sport Touring
+4287,Shelby GT350
+4288,Shelby GT350R
+4289,xDrive28i X Line
+4290,xDrive35i X Line
+4291,xDrive35i M Sport
+4309,Series.HyperBlue
+4310,LE Limited
+4311,TRD Off-Road
+4312,R-Line SE
+4313,R-Line SEL
+4314,R-Line S
+4315,R-Line Executive
+4316,Eclipse
+4317,TX
+4318,Corto
+4319,Largo
+4320,SV Autobiography
+4321,Sporting
+4322,Inscription
+4325,Unlimited Sport S
+4327,s Grand Touring
+4328,i Grand Touring
+4329,s Touring
+4330,i SV
+4331,Prime
+4332,Proxy
+4333,Pure Tech
+4334,Live
+4335,T8 Momentum
+4336,T8 Inscription
+4337,T8 R-Design
+4339,T5 Inscription Premier
+4340,T5 Inscription Platinum
+4348,90D
+4349,P90D Signature
+4350,P90D Founder
+4351,xDrive40e
+4352,Platinum Reserve
+4353,TDI Vorsprung
+4354,SX Limited
+4355,Plug-In Hybrid
+4356,Plug-In Hybrid Limited
+4357,Plug-In Hybrid Ultimate
+4358,Two Eco
+4359,Three Touring
+4360,Four Touring
+4361,Persona Series
+4362,EX-T
+4365,Impulse
+4366,First Edition
+4367,LX 1.6T
+4369,SS/T 5.9L
+4370,THE 60TH ANNIVERSARY EDITION
+4371,SE Luxury
+4372,Design
+4373,Range Extender Dynamic
+4386,WBH
+4387,Carbon
+4388,Supercharged Dynamic
+4389,HST
+4390,70
+4391,70D
+4392,85
+4393,85D
+4394,P85D
+4395,SE Dynamic
+4396,Active Cargo
+4397,All Grip
+4398,Starline
+4399,L Premium
+4400,T6 Ocean Race
+4410,Reverb
+4411,Red Sport
+4412,All Terrain
+4413,T6 First Edition
+4414,SE Limited Edition Sportback
+4415,Raptor
+4416,Energi Platinum
+4417,SRT8 Core
+4418,Project 7
+4420,Victoria
+4421,T8
+4422,T5 Special Edition
+4423,Carrera Black Edition
+4425,Carrera 4 Black Edition
+4427,Fleet Edition
+4428,LP560-2
+4430,Diesel Platinum Edition
+4431,RF
+4432,Evolution Final Edition
+4433,Tela
+4434,Urbana
+4435,Urbana Trekking
+4437,Unlimited Black Bear
+4438,Allstar
+4439,Cross Up!
+4440,High Up!
+4441,Move Up!
+4442,Take Up!
+4445,Classica
+4446,Lusso
+4447,FE+S
+4448,FE+SV
+4449,Limited Ultimate
+4450,SE Ultimate
+4452,V Luxury
+4453,Himalaya
+4454,100 Aniversario
+4455,R/T Shaker
+4456,R/T Plus Shaker
+4457,392 Hemi Scat Pack Shaker
+4458,V6 Executive 4Motion
+4459,M40i
+4460,xDrive35i Top Line
+4461,xDrive28i M Sport
+4462,xDrive28i Top Line
+4463,Land of Quattro
+4464,WRX GT
+4465,WRX SE
+4466,XV
+4467,S Oxford Street
+4468,S Hyde Park
+4469,S All Black
+4470,S Bayswater
+4471,S Green Park
+4472,Armor
+4473,Limited Jet
+4474,Wolfsburg
+4475,Dune
+4476,Denim
+4481,Preferred
+4482,Essence
+4484,Select Hybrid
+4485,Reserve Hybrid
+4486,Premiere Hybrid
+4487,Dawn Of Justice
+4488,75th Anniversary
+4489,Altitude
+4490,High Altitude
+4491,Unlimited 75th Anniversary
+4504,RTL-E
+4505,RTL-T
+4507,GLS Premium
+4508,Touring L Plus
+4509,T5 Momentum
+4510,T5 Inscription
+4511,T8 Excellence
+4512,T5 Dynamic
+4513,T6 Dynamic
+4514,ALL4
+4515,V6 Luxury
+4516,P90D
+4517,GL Mid
+4518,CrossGolf
+4526,LX-AS
+4527,ES Plus
+4528,V8 Luxury
+4529,V8 Elite
+4530,Sport Special Edition
+4531,GS I Millon y Medio
+4532,SE LUX Hybrid
+4533,Hybrid Titanium
+4535,Adventure STX
+4536,British Design Edition
+4539,V8 Premium
+4543,Fashion
+4544,Tepee Outdoor
+4545,CGI
+4546,CGI Sport
+4547,Sport High
+4549,xDrive40e Excellence
+4550,Gran Tourer Luxury
+4551,iPerformance
+4552,Gran Coupe Base
+4553,Gran Coupe Sport Line
+4554,sDrive20i X Line
+4555,sDrive20i M Sport
+4556,Competition Edition
+4557,xDrive35i Excellence
+4558,xDrive35i Extravagance
+4559,Biturbo
+4560,Gran Coupe M Sport
+4561,Competition Edition M Performance
+4562,Gran Coupe Competition Edition
+4563,xDrive50i Excellence
+4564,xDrive50i M Sport
+4565,xDrive50i Extravagance
+4567,sDrive23i
+4568,50th Anniversary Special Edition
+4569,ACTIV
+4570,Red Edition
+4571,Pure Impulse
+4572,John Cooper Works Salt
+4573,John Cooper Works Hot Chili
+4574,SXT Lujo
+4575,Pink
+4576,Chasis Cabina
+4577,EX Pack
+4578,V6 FSI
+4579,V8 R-Line
+4580,Z71 LT
+4582,Dynamic Edition
+4583,L Sport
+4584,R/T 392
+4585,T/A 392
+4587,R LE
+4588,R XLE
+4589,T3 Addition
+4590,Bitono
+4591,S Hot Chili ALL4
+4592,T4 Addition
+4593,T4 Sport
+4594,75 Aniversario
+4595,Zen
+4596,Intens
+4597,Iconic
+4598,Max Platinum
+4602,Preferred II
+4604,SR Turbo
+4605,V6 Wolfsburg
+4606,P100D
+4607,60
+4608,60D
+4609,75D
+4610,Advanced
+4620,Like
+4621,311 CDI
+4622,Limited Lujo
+4623,Limited Lujo Advance
+4624,Summit Elite Platinum
+4626,#PinkBeetle
+4627,4 Executive
+4628,Polestar
+4629,LP770-4
+4630,Turbo Plus
+4631,Pasajeros
+4632,Motorsport Edition
+4633,World Champion Edition
+4634,Night Edition
+4635,Trend Advance
+4636,4Matic Avantgarde
+4637,4Matic Exclusive
+4638,Square
+4639,Edition 463
+4640,VX-R
+4641,Hemi
+4656,Hybrid Ultimate
+4657,Plug-In Hybrid EX
+4658,Hybrid LE+
+4659,RF Club
+4660,RF Grand Touring
+4661,RF GS
+4662,RF GT
+4663,LP580-2
+4664,Daytona 392
+4665,EL SSV
+4666,PTV
+4667,Ventanas
+4668,P
+4669,SLT HD
+4670,Laramie HD
+4671,PL
+4672,Trendline+
+4673,GS-L
+4693,FR Line
+4694,Reference Tip
+4695,Electric Limited
+4696,Hybrid Blue
+4697,Touring Launch Edition
+4698,S E-Hybrid Platinum Edition
+4699,Electric SE
+4700,Premium Select Edition
+4701,SX Touring
+4702,R-Dynamic SE
+4703,R-Dynamic HSE
+4704,SRT Go Mango
+4705,Blindada
+4708,Xcellence
+4709,AB
+4720,Dual Stripes
+4721,S Platinum Edition
+4722,4 Sport Turismo
+4723,4S Sport Turismo
+4724,4 E-Hybrid
+4725,4 E-Hybrid Executive
+4726,4 E-Hybrid Sport Turismo
+4727,Unlimited Winter Edition
+4728,400 Sport
+4734,4S Diesel
+4735,4S Diesel Sport Turismo
+4736,Turbo Sport Turismo
+4737,Turbo S E-Hybrid
+4738,S E-Hybrid Executive
+4739,Autobiography LWB
+4759,Independence
+4760,Avenir
+4761,S Volante
+4762,S E ALL4
+4763,Camioneta
+4764,ECD
+4765,Renegado
+4766,Dakar
+4767,INK
+4768,CVT
+4769,Unlimited Smoky Mountain
+4771,R-Dynamic
+4772,Luxe
+4773,Trackhawk
+4774,L Black Label
+4776,Max SSV
+4777,Max XLT
+4779,Vsport Premium Luxury
+4780,Premium Performance
+4781,K
+4782,I-TECH
+4783,Super Copa
+4784,Allure Pack
+4785,GT Line
+4787,SRT Demon
+4788,Sportbrake S
+4789,Sportbrake First Edition
+4790,R-Dynamic S
+4791,Long Range
+4792,Aspire Energy
+4793,Aspire Titanium
+4794,1794
+4795,100D
+4796,GL SE
+4797,Sport Ultimate
+4798,Hybrid Luxe
+4799,Heritage Edition
+4809,Limited Tech
+4813,Sport Hybrid
+4814,Onyx Edition
+4815,Activity Edition
+4816,W12 Signature
+4817,W12 S
+4818,GT Supersports
+4830,Midnight Edition
+4831,Limited Lujo V8
+4848,Edicion 20 Anos
+4849,iPerformance Sport Line
+4850,M Edition Black Fire
+4895,Coast
+4896,Plug-In Hybrid EX Premium
+4898,SXL Turbo
+4899,Police Responder
+4900,Grand Select
+4901,Hybrid Touring L
+4902,Hybrid Touring Plus
+4903,SV Autobiography Dynamic
+4904,Landmark Edition
+4905,Performante
+4906,LP580-2 Spyder
+4907,LP610-4 Spyder
+4908,LP740-4 S
+4909,xDrive
+4910,Sport 410
+4911,Carrera T
+4912,Turbo S Exclusive Series
+4927,V Premium Black Diamond
+4928,30 Aniversario
+4929,Sportback 100 Aniversario
+4930,Sportback Attraction
+4931,Sportback 30 Aniversario
+4932,Extendido
+4933,RS Edicion Especial
+4934,Centennial Edition
+4935,SXT+
+4936,Sedan
+4938,Cummins 2000
+4939,Cummins 3000
+4945,Homologado
+4946,Tecnico
+4950,xDrive28i Sport Line
+4951,Active Tourer
+4952,Plus Spyder
+4953,2.4 Sport
+4954,2.0T Sport
+4955,Furgon
+4956,Progression Luxury
+4957,Sound
+4958,sDrive20i Executive
+4959,xDrive30i X Line
+4960,M Performance Edition
+4962,RST
+4964,Bo Concept
+4965,Deep Black
+4966,White Devil
+4967,Quantum
+4968,Seven Chili
+4969,Seven S Chili
+4970,S Diesel
+4971,Hybrid Plus
+4972,Perfection Plus
+4973,Turbo Performance
+4974,sDrive20i Sport
+4975,Sport-tech RS
+4976,Electric Plus SE
+4977,Electric Plus Limited
+4978,GT Plus
+4979,Trailhawk Elite
+4980,Latitude Plus
+4981,Plug-In Hybrid Touring
+4983,Hybrid XSE
+4984,Type RA
+4985,SXT Plus Leather
+4986,Essential
+4987,sDrive20i Executive Plus
+4988,sDrive20i M Sport X
+4989,Exclusive Hybrid
+4990,Trendline I-Motion
+4991,Trendline Plus
+4992,connect
+4993,Premier Plus
+4994,Autograph
+4995,Sensory
+4996,Turbo Ultimate
+5008,Grand Touring Reserve
+5009,Guard VR4
+5010,i Grand Touring Plus
+5011,SC Style
+5012,SC FR
+5013,Boosterjet
+5014,V Black Diamond
+5015,sDrive35i Pure Traction
+5016,25i Lujo
+5017,25i M Sport
+5018,25i Top Line
+5019,30i M Sport
+5020,xDrive28i Lujo
+5021,2.0T Ultimate
+5023,SXT Premium Plus
+5024,Blacktop
+5025,Limited Tungsten
+5026,Limited Tungsten HD
+5027,Plus Coupe
+5028,xDrive50i Security Plus
+5029,xDrive50i Security
+5030,Guard VR6
+5031,3.7 Luxe
+5032,5.6 Luxe
+5034,Turbo Tech
+5036,AMR
+5037,Allure Puretech
+5038,Miura Homage
+5039,Pirelli
+5040,SV Roadster
+5041,Performante Spyder
+5042,RDW Spyder
+5043,Xico
+5047,Noir
+5048,GT First Edition
+5049,Touring Plus
+5050,Hybrid GL
+5051,Hybrid GLS
+5052,SRT Hellcat Redeye
+5067,sDrive28i Sport Line
+5068,sDrive28i X Line
+5069,xDrive35i M Performance
+5070,xDrive50i M Performance
+5071,326
+5072,Swinger 340
+5073,202
+5078,Design & Sound
+5079,Comfortline Plus
+5080,T4 Momentum
+5081,T4 Inscription
+5082,T4 R-Design
+5083,SEL Hybrid
+5084,ProACTIVE
+5085,Premium II
+5086,TRD Off-Road Premium
+5088,Plug-In Hybrid LX
+5098,T6 Addition
+5099,ST Line
+5100,Custom Trail Boss
+5101,LT Trail Boss
+5102,AT4
+5103,Elevation
+5104,Preferred Turbo
+5105,2.5i Premier
+5106,3.6R Premier
+5109,Electric Plus Preferred
+5110,Electric Plus Ultimate
+5111,Electric Preferred
+5112,Electric Ultimate
+5113,Hybrid Essential
+5114,Hybrid Luxury
+5115,Hybrid Preferred
+5116,300 Sport
+5117,Sportbrake Prestige
+5118,XJ50
+5119,RF GS-P
+5120,Edition ONE
+5121,Series.Gray
+5122,Turbo S E-Hybrid Sport Turismo
+5123,Turbo S E-Hybrid Executive
+5129,SEL R-Line
+5131,Reserve I
+5132,Reserve II
+5133,Reserve I Hybrid
+5134,Reserve II Hybrid
+5138,Ultra sport
+5139,xDrive40i
+5140,Scat Pack 392
+5141,Citadel Platinum
+5142,E-Sport
+5143,Signature Edition
+5144,LP580-2 S
+5145,LP610-4 S
+5146,GS-P
+5147,Final Edition SE
+5148,Final Edition SEL
+5149,Rabbit Edition
+5150,Enforcer
+5151,L Eco
+5152,RS Fire Edition
+5153,Minuit
+5154,Life
+5155,Security
+5156,iPerformance Excellence
+5157,REX Sport
+5158,sDrive18i Executive
+5159,xDrive30i Executive
+5160,SV Project 8
+5161,SE R-Line
+5163,N Line
+5166,EX Designer Collection
+5168,E-Hybrid
+5169,GTS Sport Turismo
+5170,SRT HellCat Edicion Especial
+5171,Sport Edition 1
+5172,Edition 1
+5173,Guard VR9
+5174,415 CDI Extra
+5175,515 CDI Extra
+5176,Larga
+5177,Longhorn
+5178,Outsider
+5179,Doble Cabina
+5180,S209
+5181,M40i First Edition
+5182,Aperta
+5183,GLI S
+5184,GLI 35th Anniversary Edition
+5186,Unlimited Moab
+5187,Red Sport 400
+5188,Rubicon Deluxe
+5189,PHEV ALL4
+5190,Laramie Sport
+5191,M Competition
+5192,M35i
+5193,SE Plug-In Hybrid
+5194,SEL Plug-In Hybrid
+5195,Titanium Plug-In Hybrid
+5196,Designer Collection
+5197,Checkered Flag
+5209,xDrive40i Executive
+5210,xDrive40i M Sport
+5211,xDrive40i X Line
+5212,xDrive50i X Line
+5213,xDrive40i Pure Excellence
+5214,xDrive50i Pure Excellence
+5215,1 Million Edition
+5221,1957 Retro Edition
+5222,Iron Man Edition
+5223,Upland
+5224,Limited X
+5225,Ultra Luxury
+5226,HSE PHEV
+5227,SL Plus
+5228,SV Plus
+5229,Hybrid Limited Platinum
+5230,SEL Premium R-Line
+5231,True North
+5232,Plug-In Hybrid SX
+5233,Spider Italia
+5234,HD Limited
+5235,GLI Edicion Aniversario
+5236,S Diesel Platinum Edition
+5237,250 Diesel
+5246,Limited XT
+5248,Touring XT
+5249,Onyx Edition XT
+5271,SE Blacktop
+5272,Sport Line Plus
+5273,sDrive20i Sport Line
+5274,Estandar
+5275,Estandar Plus
+5276,Mayor
+5277,Mayor TT
+5278,EX Tech
+5279,M50i
+5348,ZE
+5364,Connect Intens
+5365,RWS
+5366,Performance Spyder
+5367,LP770-4 SVJ
+5368,EVO
+5369,Black Label Grand Touring
+5370,SE Black Edition
+5371,S Coupe
+5372,Turbo Coupe
+5373,Superleggera Volante
+5379,80th Anniversary Coach Door Edition
+5380,Coach Door Edition
+5381,GR
+5382,T8 Polestar
+5384,SRT Hellcat Widebody
+5386,R/T Scat Pack Widebody
+5387,SRT Hellcat Redeye Widebody
+5389,SE Sport Hybrid
+5390,Aileron
+5391,Aileron Spyder
+5392,Preliator
+5393,Preliator Spyder
+5394,Limited GT
+5395,Premier GT
+5396,Outdoor XT
+5397,Premier XT
+5398,E-Hybrid Coupe
+5399,Turbo S E-Hybrid Coupe
+5413,GO Advance
+5414,GO Exclusive
+5415,GO Sense
+5421,Last Edition
+5422,Black Badge
+5423,SE Value
+5424,sDrive40i
+5425,Edition 35 Years
+5426,Laviolette
+5427,Nightshade
+5428,Venture
+5429,Hakone Edition
+5430,TRD
+5448,SE Nightshade
+5451,SE R-Line Black
+5452,S-Line Premium
+5453,ProASSIST
+5497,M Sport Plus
+5498,Regular
+5499,sDrive M40i
+5501,James Bond Edition
+5517,xDrive40i Protection
+5610,Red Sport ProACTIVE
+5611,Sport ProACTIVE
+5612,Neiman Marcus
+5613,Eagle VIII
+5614,EVO Spyder
+5615,Standard Plus
+5619,Trail Boss
+5628,11.5M
+5629,9.5M
+5630,Smart
+5636,4Matic+
+5638,Beats
+5639,Boosterjet Sport
+5640,Boosterjet AG
+5641,T5 Ignite

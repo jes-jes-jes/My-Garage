@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  service: MyString
+  date: MyString
+  mileage: 1
+  comments: MyText
+  car: one
+
+two:
+  service: MyString
+  date: MyString
+  mileage: 1
+  comments: MyText
+  car: two

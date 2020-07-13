@@ -1,0 +1,175 @@
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
+  <div class= "sign-in-form">
+      <body style="background-color:#F0F0F0;">
+      <h2 class="text-center">My Garage</h2>
+
+
+
+  <div class="sign-in-form-username">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="sign-in-form-password">
+    <%= f.label :password %><br />
+    <%= f.password_field :password, autocomplete: "current-password" %>
+  </div>
+
+  <% if devise_mapping.rememberable? %>
+    <div class="container">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+  <% end %>
+
+  <button type="submit" class="sign-in-form-button">Sign In</button>
+
+</div>
+<% end %>
+
+
+ <p>New to My Garage? <%= render "devise/shared/links" %> </p>
+
+<style> 
+h2 {
+  font-family: Helvetica;  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  font-size: 35px;
+}
+
+.sign-in-form {
+  padding: 3rem 3em;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  margin-left: 32rem;
+  margin-right: 32rem;
+  margin-top: 7rem;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.sign-in-form strong {
+  color: #282828;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: Helvetica;  
+}
+
+.sign-in-form label {
+  text-transform: uppercase;
+  color: #adadad;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: Helvetica;
+
+
+}
+
+.sign-in-form input {
+  color: gray;
+  margin-bottom: 1.5rem;
+}
+
+.sign-in-form input:focus {
+  opacity: .8;
+}
+
+
+.sign-in-form-username input {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid   #909090;
+  color:  #909090;
+  padding: .7rem;
+  margin-top: .5rem;
+
+}
+
+.sign-in-form-password input {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid   #909090;
+  color:  #909090;
+  padding: .7rem;
+  margin-top: .5rem;
+
+}
+
+.container {
+  margin-top: 1rem;
+}
+
+.sign-in-form-button {
+  border-radius: 30px;
+  border: 1px solid   #909090;
+  color:  #909090;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: .7rem;
+  transition: all ease .4s;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+
+.sign-in-form-button:hover {
+  background-color: #44c8ed;
+  border-color: #44c8ed;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+p {
+  font-size: 13px;
+  font-family: Helvetica;
+  padding: 2rem 3em;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  text-align: center;
+  margin-left: 32rem;
+  margin-right: 32rem;
+  margin-top: .5rem;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 20px 33.4px rgba(0, 0, 0, 0.086),
+  0 30px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+a:link {
+  color: #44c8ed;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* visited link */
+a:visited {
+  color: #44c8ed;
+  text-decoration: none;
+  font-weight: 700;
+
+}
+
+
+</style>

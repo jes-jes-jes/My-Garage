@@ -1,0 +1,33 @@
+<body style="background-color:#F0F0F0;">
+<div class="new-car">
+<h1>New Car</h1>
+
+<%= render 'form', car: @car %>
+
+<%= link_to 'Back', cars_path %>
+</div>
+
+<style>
+ .new-car {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  padding-top: : 1rem;
+  padding-bottom: 1rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 7rem;
+  max-width: 400px;
+  float: center;
+  min-height: 500px;
+  text-align: center;
+  color: #383838;
+
+}
+
+
+</style>
