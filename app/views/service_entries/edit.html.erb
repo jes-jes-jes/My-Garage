@@ -1,8 +1,73 @@
+<body style="background-color:#F0F0F0;">
+
+<div class="topnav">
+  <a class="active" href="/cars">Home</a>
+  <b><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></b>
+</div> 
+
+<div class="service-entry">
+
 <h1>Edit Service Entry</h1>
 
 <%= render 'form' %>
 
-<%= link_to 'Show', [@service_entry.car, @service_entry] %> |
-<%= link_to 'Back', car_service_entries_path(@service_entry.car) %>
+</div>
 
-<%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+
+<style>
+
+ .service-entry {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  padding-top: : 1rem;
+  padding-bottom: 1rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 7rem;
+  max-width: 400px;
+  float: center;
+  min-height: 500px;
+  text-align: center;
+  color: #383838;
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #585858;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav b{
+  float:right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-image: linear-gradient(#aae4f4, #44c8ed);
+  color: white;
+}
+
+</style>

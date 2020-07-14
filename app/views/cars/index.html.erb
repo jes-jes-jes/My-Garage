@@ -3,22 +3,18 @@
 <div class="topnav">
     <a class="active" href="/cars">Home</a>
   <b><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></b>
-
 </div>
 
-<h1 style="width:50%">Cars</h1>
+<div class= "your-garage">
+<h1>Your Garage</h1>
 
 
-<table class="my-cars">
-  <thead>
-      <th>Cars</th>
-  </thead>
+<table class="my-cars" >
 
   <tbody>
     <% @cars.each do |car| %>
-      <tr class="cards">
+      <tr>
         <td class= "user-label"><%= car.nickname %></td>
-
         <td><button><%= link_to 'Show', car %></button></td>
         <td><button><%= link_to 'Edit', edit_car_path(car) %></button></td>
         <td><button><%= link_to 'Destroy', car, method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
@@ -27,12 +23,14 @@
   </tbody>
 </table>
 
+
+</div>
 <br>
 
 
 
 <p>
-<button><%= link_to 'New Car', new_car_path %></button>
+<button class="new-button"><%= link_to 'New Car', new_car_path %></button>
 </p>
 
 
@@ -43,7 +41,9 @@
 
 <style>
 
-h1 {
+
+
+.your-garage {
   text-align: center;
   font-family: Helvetica;
   padding-top: 1rem;
@@ -53,32 +53,26 @@ h1 {
   border-radius: 5px;
   margin: 0 auto;
   margin-top: 7rem;
-  min-width: 80px;
-
+  min-width: 500px;
+  max-width: 700px;
 }
 
 
 .my-cars{
   font-family: Helvetica; 
-  padding: 1rem 0em;
   background-color: #FFFFFF;
-  border: 1px solid #DCDCDC;
   margin: 0 auto;
   margin-top: 1rem;
-  border-radius: 5px;
   border-spacing: 0;
+  padding-bottom: .5rem;
+  padding-top: 1rem;
+  min-width: 500px;
+  max-width: 700px;
 }
 
 
  tbody tr:nth-child(odd) {
   background-color: #F0F0F0;
-}
-
-th {
-  font-size: 20px;
-  text-align: center;
-  padding-left: 1rem;
-  color: #8a8a8a;
 }
 
 p{
@@ -90,8 +84,10 @@ p{
   padding-top: 1rem;
   padding-left: 2rem;
   padding-bottom: 1rem;
-  padding-right:1rem;
+  padding-right: 6rem;
   min-width: 80px;
+  font-size: 18px;
+  color: #8a8a8a;
 }
 
 
@@ -122,10 +118,9 @@ button {
   min-width: 110px;
   max-height: 3px;
   transition: all ease .4s;
-  display: inline-flex;
-  align-items: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  line-height: 2px;
+  margin-left: -1rem;
+  margin-right: 3rem;
 
 }
 
@@ -138,7 +133,37 @@ button:hover {
   color: white;
 }
 
-p {
+
+.new-button {
+  border-radius: 30px;
+  border: 1px transparent;
+  background-image: linear-gradient(#aae4f4, #44c8ed);
+  color:#909090;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  min-width: 110px;
+  max-height: 3px;
+  transition: all ease .4s;
+  line-height: 2px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: baseline;
+
+}
+
+.new-button:hover {
+  background-image:none;
+  background-image: linear-gradient(#bdeaf7, #71d9f6);
+  border-color: #44c8ed;
+  color:#white;
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -174,7 +199,6 @@ body {
   background-image: linear-gradient(#aae4f4, #44c8ed);
   color: white;
 }
-
 
 
 </style>

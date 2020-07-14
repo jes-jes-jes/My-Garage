@@ -19,7 +19,6 @@
     <td><%= service_entry.mileage %></td>
     <td><%= service_entry.comments %></td>
     <td><%= service_entry.car %></td>
-    <td><%= link_to 'Show', [service_entry.car, service_entry] %></td>
     <td><%= link_to 'Edit', edit_car_service_entry_path(service_entry.car, service_entry) %></td>
     <td><%= link_to 'Destroy', [service_entry.car, service_entry], method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>

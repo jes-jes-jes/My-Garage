@@ -15,11 +15,7 @@
     <%= form.label :nickname %>
     <%= form.text_field :nickname, :prompt => "Select Make" %>
   </div>
-
-<%#Year/Base%>
-  <div class="drop-down">
-    <%= form.collection_select :bases, Base.order(:Base_VehicleID), :id, :Base_VehicleID, include_blank: true %>
-  </div>   
+  
 
 <%#Make%>
   <div class="drop-down">
@@ -117,6 +113,7 @@ a:visited {
   color: white;
   font-weight: 700;
   line-height: 2px;
+  
 }
 
 .button:hover {

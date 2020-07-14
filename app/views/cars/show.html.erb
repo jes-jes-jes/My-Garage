@@ -3,10 +3,11 @@
 <div class="topnav">
   <a class="active" href="/cars">Home</a>
   <b><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></b>
-
 </div>
+
 <div class="container">
 <div class="car-info">
+
 <p>
   <h1><%= @car.nickname %></h1>
   </p>
@@ -38,16 +39,12 @@
 
 <h1>All Service Entries</h1>
 
-<table>
+<table class="my-cars">
   <tr>
     <th>Service</th>
     <th>Date</th>
     <th>Mileage</th>
     <th>Comments</th>
-    <th>Car</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @car.service_entries.each do |service_entry| %>
@@ -57,7 +54,6 @@
       <td><%= service_entry.date %></td>
       <td><%= service_entry.mileage %></td>
       <td><%= service_entry.comments %></td>
-      <td><button><%= link_to 'Show', [service_entry.car, service_entry] %></button></td>
       <td><button><%= link_to 'Edit', edit_car_service_entry_path(service_entry.car, service_entry) %></button></td>
       <td><button><%= link_to 'Destroy', [service_entry.car, service_entry], method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
 
@@ -100,10 +96,11 @@
   border-radius: 5px;
   margin: 0 auto;
   margin-top: 7rem;
-  margin-left: 1rem;
+  margin-left: 5rem;
   max-width: 400px;
   float: left;
   min-height: 500px;
+
 
 }
 
@@ -120,7 +117,21 @@
   max-width: 800px;
   float: right;
   min-height: 500px;
+
 }
+
+.my-cars{
+  font-family: Helvetica; 
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-spacing: 0;
+  padding-bottom: .5rem;
+  min-width: 500px;
+  max-width: 665px;
+  text-align: left;
+}
+
 
 .new-entry {
   text-align: left;
@@ -131,7 +142,7 @@
   border-radius: 5px;
   margin: 0 auto;
   margin-top: 7rem;
-  margin-right: 1rem;
+  margin-right: 5rem;
   max-width: 800px;
   float: right;
   min-height: 500px;
@@ -193,11 +204,9 @@ button {
   min-width: 110px;
   max-height: 3px;
   transition: all ease .4s;
-  display: inline-flex;
-  align-items: center;
+  line-height: 2px;
   margin-left: 1rem;
   margin-right: 1rem;
-   color: #e3f9ff;
 
 }
 
@@ -211,14 +220,12 @@ button:hover {
 }
 
 .back-to-cars{
-  margin-top: 3rem;
+  margin: auto;
+  margin-top: 2rem;
   display: flex;
-  justify-content: left;
+  flex-flow: row wrap;
+  justify-content: baseline;
 }
-
-
-
-
 
 
 body {

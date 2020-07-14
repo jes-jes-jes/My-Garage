@@ -33,9 +33,9 @@ class ServiceEntriesController < ApplicationController
   end
 
   # PUT cars/1/service_entries/1
-  def update
+  def update 
     if @service_entry.update_attributes(service_entry_params)
-      redirect_to([@service_entry.car, @service_entry])
+      redirect_to([@car])
     else
       render action: 'edit'
     end
@@ -43,9 +43,12 @@ class ServiceEntriesController < ApplicationController
 
   # DELETE cars/1/service_entries/1
   def destroy
-    @service_entry.destroy
 
-    redirect_to car_service_entries_url(@car)
+    @service_entry.destroy
+    respond_to do |format|
+      format.html { redirect_to cars_url }
+      format.json { head :no_content }
+    end
   end
 
   private

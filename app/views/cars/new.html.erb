@@ -1,3 +1,8 @@
+<div class="topnav">
+    <a class="active" href="/cars">Home</a>
+  <b><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></b>
+</div>
+
 <body style="background-color:#F0F0F0;">
 <div class="new-car">
 <h1>New Car</h1>
@@ -29,5 +34,37 @@
 
 }
 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #585858;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav b{
+  float:right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-image: linear-gradient(#aae4f4, #44c8ed);
+  color: white;
+}
 
 </style>
