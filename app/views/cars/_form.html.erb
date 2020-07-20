@@ -11,16 +11,6 @@
     </div>
   <% end %>
 
-<%= if t.save
-      puts "#{t.Base_VehicleID}, #{t.YearID}, #{t.MakeID}, #{t.ModelID} saved"
-    else
-      t.errors.full_messages.each { |m| puts m }
-    end> 
-    if t.save
-      puts "#{t.Base_VehicleID}, #{t.YearID}, #{t.MakeID}, #{t.ModelID} saved"
-    else
-      t.errors.full_messages.each { |m| puts m }
-    end %>
 
   <div class="field">
     <%= form.label :nickname %>
@@ -29,7 +19,7 @@
   
 <%#Base%>
   <div class="drop-down">
-    <%= form.collection_select :bases, Base.order(:YearID), :id, :YearID, include_blank: true %>
+    <%= form.collection_select :bases, BaseYear.order(:YearID), :id, :YearID, include_blank: true %>
   </div> 
 
 <%#Make%>

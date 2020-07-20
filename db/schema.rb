@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_13_024007) do
+ActiveRecord::Schema.define(version: 2020_07_20_161810) do
 
   create_table "base_makes", force: :cascade do |t|
     t.integer "MakeID"
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 2020_07_13_024007) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "bases", force: :cascade do |t|
+  create_table "base_years", force: :cascade do |t|
     t.integer "Base_VehicleID"
     t.string "YearID"
     t.integer "MakeID"
