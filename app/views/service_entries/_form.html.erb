@@ -37,6 +37,11 @@
 .field input {
   color: gray;
   margin-bottom: 1rem;
+
+}
+.field label {
+margin-left: 1rem;
+
 }
 
 .field input:focus {
@@ -44,43 +49,56 @@
 }
 
 .field input {
-  width: 100%;
+  width: 90%;
   border-radius: 5px;
-  border: 1px solid   #909090;
-  color:  #909090;
+  border: 1px solid #DCDCDC;
   padding: .7rem;
-  margin-top: .5rem;
+  padding-top: 1rem;
+  display: block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 
+.field{
+    color: gray;
 }
 
 textarea {
-  min-width: 100%;
-  min-height: 80px;  
+  width: 90%;
+  min-height: 170px;  
   resize:none;
   border-radius: 5px;
+  border: 1px solid #DCDCDC;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 a:link {
-  color: white;
+  color: gray;
   font-size: 14px;
   text-decoration: none;
-  font-weight: 700;
+  text-transform:capitalize;
+
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: gray;
   text-decoration: none;
-  font-weight: 700;
 }
 
+a:hover {
+  color: #44c8ed;
+  transition: all ease .4s;
+
+}
+
+
 button {  
-  border-radius: 30px;
   border: 1px transparent;
-  background-image: linear-gradient(#aae4f4, #44c8ed);
-  color:#909090;
-  text-transform: uppercase;
+  color:gray;
   font-family: Helvetica;
   text-decoration: none;
   letter-spacing: 1px;
@@ -96,9 +114,8 @@ button {
 
 button:hover {
   background-image:none;
-  background-image: linear-gradient(#bdeaf7, #71d9f6);
+  background-color: #71d9f6;
   border-color: #44c8ed;
-  color:#white;
   text-decoration: none;
   color: white;
 }
@@ -106,9 +123,7 @@ button:hover {
 .button {  
   border-radius: 30px;
   border: 1px transparent;
-  background-image: linear-gradient(#aae4f4, #44c8ed);
-  color:#909090;
-  text-transform: uppercase;
+  background-color: #44c8ed;
   font-family: Helvetica;
   text-decoration: none;
   letter-spacing: 1px;
@@ -117,18 +132,23 @@ button:hover {
   max-height: 3px;
   transition: all ease .4s;
   line-height: 2px;
-  margin: 1rem;
   color: white;
-  font-weight: 700;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform:capitalize;
+
 }
 
 .button:hover {
   background-image:none;
-  background-image: linear-gradient(#bdeaf7, #71d9f6);
+  background-color: #71d9f6;
   border-color: #44c8ed;
   color: white;
   text-decoration: none;
-  font-weight: 700;
+}
 
 
 

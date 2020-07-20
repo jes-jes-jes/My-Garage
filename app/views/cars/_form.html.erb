@@ -11,15 +11,26 @@
     </div>
   <% end %>
 
+<%= if t.save
+      puts "#{t.Base_VehicleID}, #{t.YearID}, #{t.MakeID}, #{t.ModelID} saved"
+    else
+      t.errors.full_messages.each { |m| puts m }
+    end> 
+    if t.save
+      puts "#{t.Base_VehicleID}, #{t.YearID}, #{t.MakeID}, #{t.ModelID} saved"
+    else
+      t.errors.full_messages.each { |m| puts m }
+    end %>
+
   <div class="field">
     <%= form.label :nickname %>
     <%= form.text_field :nickname, :prompt => "Select Make" %>
   </div>
   
-  <%#Base%>
+<%#Base%>
   <div class="drop-down">
-    <%= form.collection_select :bases, Base.order(:Base_VehicleID), :id, :Base_VehicleID, include_blank: true %>
-  </div>   
+    <%= form.collection_select :bases, Base.order(:YearID), :id, :YearID, include_blank: true %>
+  </div> 
 
 <%#Make%>
   <div class="drop-down">
@@ -36,11 +47,17 @@
     <%= form.collection_select :base_sub_models, BaseSubModel.order(:SubModelName), :id, :SubModelName, :prompt => "Select Sub-Model" %>
   </div>
 
-
   <div class="actions">
     <%= form.submit :class => "button"%>
   </div>
+
+
 <% end %>
+
+
+
+
+
 
 <style>
 
@@ -92,21 +109,21 @@ a:link {
   color: white;
   font-size: 14px;
   text-decoration: none;
-  font-weight: 700;
+  
+
 }
 
 /* visited link */
 a:visited {
   color: white;
   text-decoration: none;
-  font-weight: 700;
+
 }
 
 .button {
   border-radius: 30px;
   border: 1px transparent;
-  background-image: linear-gradient(#aae4f4, #44c8ed);
-  text-transform: uppercase;
+  background-color: #44c8ed;
   font-family: Helvetica;
   text-decoration: none;
   letter-spacing: 1px;
@@ -115,14 +132,16 @@ a:visited {
   max-height: 3px;
   transition: all ease .4s;
   color: white;
-  font-weight: 700;
   line-height: 2px;
-  
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .button:hover {
-  background-image:none;
-  background-image: linear-gradient(#bdeaf7, #71d9f6);
+  background-color: #71d9f6;
   border-color: #44c8ed;
   color: white;
   text-decoration: none;

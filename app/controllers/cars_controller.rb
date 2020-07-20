@@ -17,6 +17,13 @@ class CarsController < ApplicationController
   # GET /cars/new
   def new
     @car = current_user.cars.build
+
+    if t.save
+      puts "#{t.Base_VehicleID}, #{t.YearID}, #{t.MakeID}, #{t.ModelID} saved"
+    else
+      t.errors.full_messages.each { |m| puts m }
+    end
+    
   end
 
   # GET /cars/1/edit

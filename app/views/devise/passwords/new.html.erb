@@ -1,16 +1,190 @@
+<body style="background-color:#F0F0F0;">
+<div class= "sign-in-form">
+
 <h2>Forgot your password?</h2>
 
 <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="field">
+  <div class="sign-in-form-username">
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
-  <div class="actions">
-    <%= f.submit "Send me reset password instructions" %>
-  </div>
+  <button type="submit" class="reset-button">Send me reset password instructions</button>
+
 <% end %>
 
-<%= render "devise/shared/links" %>
+
+
+<div class="log-in"><%= render "devise/shared/links" %></div>
+
+</div>
+
+
+
+<style> 
+::selection {
+  color: white;
+  background: #44c8ed;
+}
+	
+h2 {
+  font-family: Helvetica;  
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  font-size: 35px;
+}
+
+.sign-in-form {
+  padding: 3rem 3em;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  margin-left: 32rem;
+  margin-right: 32rem;
+  margin-top: 7rem;
+  height: 400px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.sign-in-form strong {
+  color: #282828;
+  font-weight: 900;
+  font-size: 35px;
+  font-family: Helvetica;  
+  text-transform: uppercase;
+
+}
+
+.sign-in-form label {
+  color: #adadad;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+
+}
+
+.sign-in-form input {
+  color: gray;
+  margin-bottom: 1.5rem;
+}
+
+.sign-in-form input:focus {
+  opacity: .8;
+}
+
+
+.sign-in-form-username input {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid   #909090;
+  color:  #909090;
+  padding: .7rem;
+  margin-top: .5rem;
+
+}
+
+.sign-in-form-password input {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid   #909090;
+  color:  #909090;
+  padding: .7rem;
+  margin-top: .5rem;
+
+}
+
+.container {
+  margin-top: 1rem;
+}
+
+.reset-button {
+  border-radius: 30px;
+  border: 1px solid   #909090;
+  color:  #909090;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: .7rem;
+  transition: all ease .4s;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.reset-button:hover {
+  background-color: #44c8ed;
+  border-color: #44c8ed;
+  color: #FFFFFF;
+  justify-content: center;
+
+}
+
+
+p {
+  font-size: 13px;
+  font-family: Helvetica;
+  padding: 2rem 3em;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  text-align: center;
+  margin-left: 32rem;
+  margin-right: 32rem;
+  margin-top: .5rem;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 20px 33.4px rgba(0, 0, 0, 0.086),
+  0 30px 80px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.log-in {
+  text-align: center;
+
+}
+
+a:link {
+  font-family: Helvetica;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  color: gray;
+  text-decoration: none;
+  text-transform:capitalize;
+  text-align: middle;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  font-weight: 700;
+  color: gray;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #44c8ed;
+  transition: all ease .4s;
+}
+
+em {
+  font-family: Helvetica;
+  font-size: 13px;
+}
+
+</style>

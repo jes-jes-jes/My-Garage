@@ -2,65 +2,48 @@
 
 <div class="topnav">
   <a class="active" href="/cars">Home</a>
-  <b><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></b>
+  <b class="sign-out"><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></b>
+  <%= link_to 'Edit Car', edit_car_path(@car) %>
 </div>
 
-<div class="container">
-<div class="car-info">
 
-<p>
-  <h1><%= @car.nickname %></h1>
-  </p>
 
-<p>
-  <strong>Make:</strong>
-  <%= @car.make %>
-</p>
+<div class="grid-container">
 
-<p>
-  <strong>Model:</strong>
-  <%= @car.model %>
-</p>
+<div class="name">
+<h1 class="your-current-vehicle">Your Current Vehicle</h1>
+    <p class="nickname"><strong ><%= @car.nickname %></strong> 
+    <strong class="car-type">  
+    <%= @car.make %>
+    <%= @car.model %>
+    <%= @car.year %> 
+    <%# <%= @car.sub_model %> 
+    </strong>  </p>
 
-<p>
-  <strong>Year:</strong>
-  <%= @car.year %>
-</p>
-
-<p>
-  <strong>Sub Model:</strong>
-  <%# <%= @car.sub_model %> 
-</p>
-
-<button><%= link_to 'Edit', edit_car_path(@car) %></button>
 </div>
 
-<div class="service-entries">
 
-<h1>All Service Entries</h1>
 
-<table class="my-cars">
-  <tr>
-    <th>Service</th>
-    <th>Date</th>
-    <th>Mileage</th>
-    <th>Comments</th>
-  </tr>
+<div class="about">
+
+<table class="my-entries">
 
 <% @car.service_entries.each do |service_entry| %>
 <% if service_entry.persisted? %>
-    <tr>
-      <td><%= service_entry.service %></td>
+    <tr class="table">
+      <td class= "user-label"> <%= service_entry.service %></td>
       <td><%= service_entry.date %></td>
-      <td><%= service_entry.mileage %></td>
-      <td><%= service_entry.comments %></td>
-      <td><button><%= link_to 'Edit', edit_car_service_entry_path(service_entry.car, service_entry) %></button></td>
-      <td><button><%= link_to 'Destroy', [service_entry.car, service_entry], method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
-
-        
-
-
+      <td><%= service_entry.mileage %> mi.</td>
+      <td class="edit"><%= link_to 'Edit', edit_car_service_entry_path(service_entry.car, service_entry) %></td>
+      <td class= "delete"><%= link_to 'Delete', [service_entry.car, service_entry], method: :delete, data: { confirm: 'Are you sure?' } %></td>
     </tr>
+
+    <tr class="table-comments">
+      <td colspan="5" class="table-expand-comments">
+        <p><%= service_entry.comments %></p>
+      </td>
+    </tr>
+
   <% end %>
 <% end %>
 </table>
@@ -70,133 +53,223 @@
 
 
 <div class="new-entry">
-<h1>New Service Entry</h1>
+<h1>New Entry</h1>
 
 <%= render 'service_entries/form' %>
 </div>
+
 </div>
-<button class="back-to-cars"><%= link_to 'Back to All Cars', cars_path %></button>
+
+<p class="back-to-cars"><%= link_to 'Back to All Cars', cars_path %></p>
+
+
+
+
+
+
+
+
 
 <style>
 
-.container {
-  display: flex;
-  justify-content: space-between;
+::selection {
+  color: white;
+  background: #44c8ed;
 }
 
-.car-info {
-  text-align: center;
-  font-family: Helvetica;
-  padding-top: : 1rem;
-  padding-bottom: 1rem;
-  padding-right: 4rem;
-  padding-left: 4rem;
-  background-color: #FFFFFF;
-  border: 1px solid #DCDCDC;
-  border-radius: 5px;
-  margin: 0 auto;
-  margin-top: 7rem;
-  margin-left: 5rem;
-  max-width: 400px;
-  float: left;
-  min-height: 500px;
+
+.name { grid-area: header; }
+.about { grid-area: menu; }
+.new-entry { grid-area: entry; }
 
 
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  padding: 10px;
+  grid-template-areas:
+    'header header header entry entry entry'
+    'menu menu menu entry entry entry';
+  grid-template-rows: 150px 450px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 4rem;
 }
 
-.service-entries {
-  text-align: center;
-  font-family: Helvetica;
-  padding: 1rem;
-  background-color: #FFFFFF;
-  border: 1px solid #DCDCDC;
-  border-radius: 5px;
-  margin: 0 auto;
-  margin-top: 7rem;
-  padding: 1rem;
-  max-width: 800px;
-  float: right;
-  min-height: 500px;
-
+.grid-container > div {
+  padding: 20px 0;
 }
 
-.my-cars{
-  font-family: Helvetica; 
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  margin-top: 1rem;
-  border-spacing: 0;
-  padding-bottom: .5rem;
-  min-width: 500px;
-  max-width: 665px;
+
+
+
+
+h1 {
   text-align: left;
+  font-size: 30px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
+
+.name {
+  font-family: Helvetica;
+  color: #404040;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: flex;
+  flex-direction: row;
+  min-width: 700px;
+}
+
+.your-current-vehicle{
+  font-size: 34px;
+  font-family: Helvetica;
+  color: #404040;
+  background-color: #FFFFFF;
+  border-right: 3px solid #DCDCDC;
+  padding:1rem;
+  width: 33%;
+  height: auto; 
+  text-align: left;
+  margin-left: 1rem;
+  flex-direction: row;
+  margin: 0 auto;
+ }
+
+ .nickname {
+  font-size: 34px;
+  font-family: Helvetica;
+  color: #404040;
+  background-color: #FFFFFF;
+  padding:1rem;
+  width: 40%;
+  height: auto;
+  text-align: left;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.car-type {
+  font-size: 15px;
+  display: block;
+  padding-top: 1.2rem;
+}
+
+
+.about {
+  font-family: Helvetica;
+  color: #404040;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.my-entries{
+  font-family: Helvetica; 
+  color: #404040;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-spacing: 0;
+  text-align: left;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  overflow: scroll;
+  width: 800px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F8F8F8; 
+  border-radius: 5px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E0E0E0; 
+  border-radius: 5px;
+  transition: all ease .4s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #D8D8D8; 
+}
+
+
+
+
+
+tbody tr:nth-child(odd) {
+  background-color: #F0F0F0 ;
+}
+
+td{
+  padding-right: 6rem;
+  width: 90px;
+}
+
+.user-label {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  font-weight: bold;
+  width: 150px;
+}
+
+.table {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #8a8a8a; 
+  overflow: scroll;
+  
+
+}
+
+
+.table-expand-comments {
+  background-color: #F8F8F8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  font-size: 15px;
+  color: #8a8a8a;
+}
+
 
 
 .new-entry {
   text-align: left;
   font-family: Helvetica;
-  padding: 1rem;
+  color: #404040;
   background-color: #FFFFFF;
   border: 1px solid #DCDCDC;
   border-radius: 5px;
-  margin: 0 auto;
-  margin-top: 7rem;
-  margin-right: 5rem;
-  max-width: 800px;
-  float: right;
-  min-height: 500px;
-  max-height: 500px;
+  width: 300px;
 
 }
 
 
-
- tbody tr:nth-child(even) {
-  background-color: #F0F0F0;
-}
-
-th {
-  font-size: 20px;
-  text-align: left;
-  padding-left: 1rem;
-  color: #8a8a8a;
-}
-
-p{
-  font-family: Helvetica;
-}
-
-.user-label {
-  font-family: Helvetica; 
-  padding-top: 1rem;
-  padding-left: 2rem;
-  padding-bottom: 1rem;
-  padding-right:1rem;
-  min-width: 80px;
-}
-
-
-a:link {
-  color: white;
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-/* visited link */
-a:visited {
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
-}
 
 button {
   border-radius: 30px;
   border: 1px transparent;
-  background-image: linear-gradient(#aae4f4, #44c8ed);
   color:#909090;
-  text-transform: uppercase;
   font-family: Helvetica;
   text-decoration: none;
   letter-spacing: 1px;
@@ -211,36 +284,45 @@ button {
 }
 
 button:hover {
-  background-image:none;
-  background-image: linear-gradient(#bdeaf7, #71d9f6);
+
   border-color: #44c8ed;
-  color:#white;
   text-decoration: none;
   color: white;
 }
 
 .back-to-cars{
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: baseline;
+  justify-content: center;
 }
+
+.delete {
+  padding-right: 0rem;
+}
+
+.edit {
+  padding-right: .5rem;
+}
+
 
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #585858;
+  background-color: white;
+  border-bottom: 1px solid #DCDCDC;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #404040;
   text-align: center;
   padding: 14px 25px;
   text-decoration: none;
@@ -257,10 +339,9 @@ body {
 }
 
 .topnav a.active {
-  background-image: linear-gradient(#aae4f4, #44c8ed);
+  background-color:#44c8ed;
   color: white;
 }
-
 
 
 </style>

@@ -5,19 +5,19 @@
   <b><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></b>
 </div>
 
-<div class= "your-garage">
-<h1>Your Garage</h1>
 
+<div class= "grid-container">
+<h1 class= "your-garage">Your Garage</h1>
+<div class= "table">
 
 <table class="my-cars" >
 
   <tbody>
     <% @cars.each do |car| %>
       <tr>
-        <td class= "user-label"><%= car.nickname %></td>
-        <td><button><%= link_to 'Show', car %></button></td>
-        <td><button><%= link_to 'Edit', edit_car_path(car) %></button></td>
-        <td><button><%= link_to 'Destroy', car, method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
+        <td class= "user-label"> <%= link_to car.nickname, car %>
+        <div class= "edit-delete"><%= link_to 'Edit', edit_car_path(car) %>
+        <%= link_to 'Delete', car, method: :delete, data: { confirm: 'Are you sure?' } %></td></div>
       </tr>
     <% end %>
   </tbody>
@@ -27,11 +27,10 @@
 </div>
 <br>
 
+</div>
 
 
-<p>
-<button class="new-button"><%= link_to 'New Car', new_car_path %></button>
-</p>
+<div class="new-car"><%= link_to 'New Car', new_car_path %></div>
 
 
 
@@ -40,34 +39,116 @@
 
 
 <style>
+  
+::selection {
+  color: white;
+  background: #44c8ed;
+}
+
+.your-garage { grid-area: header; }
+.table { grid-area: menu; }
 
 
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-areas:
+    'header header header'
+    'menu menu menu';
+  grid-template-rows: 150px;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 4rem;
+  min-width: 700px;
+}
 
-.your-garage {
+.grid-container > div {
+  padding: 20px 0;
+}
+
+
+.your-garage {  
+  font-size: 40px;
   text-align: center;
   font-family: Helvetica;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   padding-bottom: 1rem;
   background-color: #FFFFFF;
   border: 1px solid #DCDCDC;
   border-radius: 5px;
-  margin: 0 auto;
-  margin-top: 7rem;
-  min-width: 500px;
-  max-width: 700px;
+
+}
+
+.table {
+  text-align: center;
+  font-family: Helvetica;
+  padding-bottom: 1rem;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  max-height: 450px;
+  overflow: auto;
 }
 
 
 .my-cars{
   font-family: Helvetica; 
+  color: #404040;
   background-color: #FFFFFF;
   margin: 0 auto;
-  margin-top: 1rem;
   border-spacing: 0;
-  padding-bottom: .5rem;
+  text-align: left;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  width: 800px;
+  vertical-align: middle;
+}
+
+.user-label {
+  font-family: Helvetica; 
+  font-weight: 400;
+  font-size: 16px;
   padding-top: 1rem;
-  min-width: 500px;
-  max-width: 700px;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 4rem;
+  min-width: 80px;
+  color: #8a8a8a;
+}
+
+.edit-delete {
+  float: right;
+  font-size: 14px;
+  font-weight: lighter;
+  word-spacing: 3em;
+  font-weight: normal;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F8F8F8; 
+  border-radius: 5px;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E0E0E0; 
+  border-radius: 5px;
+  transition: all ease .4s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #D8D8D8; 
 }
 
 
@@ -75,111 +156,53 @@
   background-color: #F0F0F0;
 }
 
-p{
-  font-family: Helvetica;
+ tbody tr:nth-child(even) {
+  background-color: #F8F8F8;
 }
 
-.user-label {
-  font-family: Helvetica; 
-  padding-top: 1rem;
-  padding-left: 2rem;
-  padding-bottom: 1rem;
-  padding-right: 6rem;
-  min-width: 80px;
-  font-size: 18px;
-  color: #8a8a8a;
-}
+
 
 
 a:link {
-  color: white;
-  font-size: 14px;
+  color: gray;
   text-decoration: none;
-  font-weight: 700;
+  text-transform:capitalize;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: gray;
   text-decoration: none;
-  font-weight: 700;
 }
 
-button {
-  border-radius: 30px;
-  border: 1px transparent;
-  background-image: linear-gradient(#aae4f4, #44c8ed);
-  color:#909090;
-  text-transform: uppercase;
-  font-family: Helvetica;
-  text-decoration: none;
-  letter-spacing: 1px;
-  padding: 1rem;
-  min-width: 110px;
-  max-height: 3px;
+a:hover {
+  color: #44c8ed;
   transition: all ease .4s;
-  line-height: 2px;
-  margin-left: -1rem;
-  margin-right: 3rem;
 
 }
 
-button:hover {
-  background-image:none;
-  background-image: linear-gradient(#bdeaf7, #71d9f6);
-  border-color: #44c8ed;
-  color:#white;
-  text-decoration: none;
-  color: white;
+.new-car{
+  text-align: center;
+  font-size: 16px;
 }
 
 
-.new-button {
-  border-radius: 30px;
-  border: 1px transparent;
-  background-image: linear-gradient(#aae4f4, #44c8ed);
-  color:#909090;
-  text-transform: uppercase;
-  font-family: Helvetica;
-  text-decoration: none;
-  letter-spacing: 1px;
-  padding: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  min-width: 110px;
-  max-height: 3px;
-  transition: all ease .4s;
-  line-height: 2px;
-  margin: auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: baseline;
-
-}
-
-.new-button:hover {
-  background-image:none;
-  background-image: linear-gradient(#bdeaf7, #71d9f6);
-  border-color: #44c8ed;
-  color:#white;
-  text-decoration: none;
-  color: white;
-}
 
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #585858;
+  background-color: white;
+  border-bottom: 1px solid #DCDCDC;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #404040;
   text-align: center;
   padding: 14px 25px;
   text-decoration: none;
@@ -196,7 +219,7 @@ body {
 }
 
 .topnav a.active {
-  background-image: linear-gradient(#aae4f4, #44c8ed);
+  background-color:#44c8ed;
   color: white;
 }
 
