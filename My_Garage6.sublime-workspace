@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"base",
+				"base_makes"
+			],
+			[
 				"margin",
 				"margin\tproperty"
 			],
@@ -139,36 +143,43 @@
 			"file": "app/views/cars/_form.html.erb",
 			"settings":
 			{
-				"buffer_size": 2611,
+				"buffer_size": 2758,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "class Car < ApplicationRecord\n  has_many :service_entries\n  \n  belongs_to :bases\n  belongs_to :base_makes\n  belongs_to :base_models\n  belongs_to :base_sub_models\n  \n  belongs_to :user\n\n\nend\n",
-			"file": "app/models/car.rb",
-			"file_size": 354,
-			"file_write_time": 132396976912979887,
+			"file": "app/models/base_make.rb",
 			"settings":
 			{
-				"buffer_size": 190,
+				"buffer_size": 82,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/models/base.rb",
+			"file": "app/models/base_model.rb",
 			"settings":
 			{
-				"buffer_size": 127,
+				"buffer_size": 82,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/cars_controller.rb",
+			"file": "app/models/base_sub_model.rb",
 			"settings":
 			{
-				"buffer_size": 1926,
+				"buffer_size": 84,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/base_year.rb",
+			"settings":
+			{
+				"buffer_size": 131,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -228,7 +239,16 @@
 	],
 	"file_history":
 	[
+		"/C/Users/jescf/Desktop/My_Garage6/app/views/cars/_form.html.erb",
+		"/C/Users/jescf/Desktop/My_Garage6/app/views/layouts/default.html.erb",
+		"/C/Users/jescf/Desktop/My_Garage6/Gemfile",
 		"/C/Users/jescf/Desktop/My_Garage6/app/models/car.rb",
+		"/C/Users/jescf/Desktop/My_Garage6/app/controllers/cars_controller.rb",
+		"/C/Users/jescf/Desktop/My_Garage6/db/migrate/20200720161810_rename_base.rb",
+		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_year.rb",
+		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_sub_model.rb",
+		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_model.rb",
+		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_make.rb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/views/cars/index.html.erb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/views/cars/new.html.erb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/views/devise/sessions/new.html.erb",
@@ -237,18 +257,11 @@
 		"/C/Users/jescf/Desktop/My_Garage6/app/views/devise/registrations/new.html.erb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/views/service_entries/_form.html.erb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/assets/javascripts/cars.coffee",
-		"/C/Users/jescf/Desktop/My_Garage6/app/views/cars/_form.html.erb",
-		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_sub_model.rb",
-		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_model.rb",
-		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_make.rb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/models/base.rb",
-		"/C/Users/jescf/Desktop/My_Garage6/app/controllers/cars_controller.rb",
 		"/C/Users/jescf/Desktop/My_Garage6/log/development.log",
 		"/C/Users/jescf/Desktop/My_Garage6/app/assets/javascripts/cable.js",
 		"/C/Users/jescf/Desktop/My_Garage6/app/assets/javascripts/application.js",
 		"/C/Users/jescf/Desktop/My_Garage6/app/assets/javascripts/service_entries.coffee",
-		"/C/Users/jescf/Desktop/My_Garage6/Gemfile",
-		"/C/Users/jescf/Desktop/My_Garage6/app/views/layouts/default.html.erb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/controllers/service_entries_controller.rb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/views/service_entries/edit.html.erb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/views/cars/edit.html.erb",
@@ -342,7 +355,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -461,7 +474,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -470,15 +483,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2611,
+						"buffer_size": 2758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								879,
-								880
+								740,
+								740
 							]
 						],
 						"settings":
@@ -488,6 +501,34 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/base_make.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -495,20 +536,48 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/models/car.rb",
+					"buffer": 2,
+					"file": "app/models/base_model.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 190,
+						"buffer_size": 82,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								185,
-								185
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/base_sub_model.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
 							]
 						],
 						"settings":
@@ -523,12 +592,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/models/base.rb",
-					"semi_transient": true,
+					"buffer": 4,
+					"file": "app/models/base_year.rb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 127,
+						"buffer_size": 131,
 						"regions":
 						{
 						},
@@ -548,36 +617,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/controllers/cars_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1926,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								517,
-								517
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -760,7 +799,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 262.0,
+	"side_bar_width": 177.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

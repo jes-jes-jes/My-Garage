@@ -9,18 +9,19 @@
       <% end %>
       </ul>
     </div>
-  <% end %>
+  <% end %> 
 
-
+<%#Nickname%>
   <div class="field">
     <%= form.label :nickname %>
-    <%= form.text_field :nickname, :prompt => "Select Make" %>
+    <%= form.text_field :nickname, :prompt => "Nickname" %>
   </div>
   
 <%#Base%>
   <div class="drop-down">
-    <%= form.collection_select :bases, BaseYear.order(:YearID), :id, :YearID, include_blank: true %>
+    <%= form.collection_select :bases, BaseYear.select(:YearID).distinct, :id, :YearID, :prompt => "Select Year" %>
   </div> 
+
 
 <%#Make%>
   <div class="drop-down">
@@ -40,7 +41,6 @@
   <div class="actions">
     <%= form.submit :class => "button"%>
   </div>
-
 
 <% end %>
 
