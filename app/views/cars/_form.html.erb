@@ -19,8 +19,9 @@
   
 <%#Base%>
   <div class="drop-down">
-    <%= form.collection_select :bases, BaseYear.select(:YearID).distinct, :id, :YearID, :prompt => "Select Year" %>
+    <%= form.collection_select :bases, BaseYear.select(:YearID).distinct.order(YearID: :desc), :id, :YearID, :prompt => "Select Year" %>
   </div> 
+
 
 
 <%#Make%>
