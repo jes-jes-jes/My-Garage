@@ -22,8 +22,6 @@
     <%= form.collection_select :bases, BaseYear.select(:YearID).distinct.order(YearID: :desc), :id, :YearID, :prompt => "Select Year" %>
   </div> 
 
-
-
 <%#Make%>
   <div class="drop-down">
     <%= form.collection_select :base_makes, BaseMake.order(:MakeName), :id, :MakeName, :prompt => "Select Make"%>
@@ -39,6 +37,7 @@
     <%= form.collection_select :base_sub_models, BaseSubModel.order(:SubModelName), :id, :SubModelName, :prompt => "Select Sub-Model" %>
   </div>
 
+<%#Button%>
   <div class="actions">
     <%= form.submit :class => "button"%>
   </div>
@@ -94,21 +93,16 @@ select {
 }
 
 
-
-
 a:link {
   color: white;
   font-size: 14px;
   text-decoration: none;
-  
-
 }
 
 /* visited link */
 a:visited {
   color: white;
   text-decoration: none;
-
 }
 
 .button {
