@@ -140,31 +140,19 @@
 	"buffers":
 	[
 		{
-			"contents": "<%= form_with(model: car, local: true) do |form| %>\n  <% if car.errors.any? %>\n    <div id=\"error_explanation\">\n      <h2><%= pluralize(car.errors.count, \"error\") %> prohibited this car from being saved:</h2>\n\n      <ul>\n      <% car.errors.full_messages.each do |message| %>\n        <li><%= message %></li>\n      <% end %>\n      </ul>\n    </div>\n  <% end %> \n\n<%#Nickname%>\n  <div class=\"field\">\n    <%= form.label :nickname %>\n    <%= form.text_field :nickname, :prompt => \"Nickname\" %>\n  </div>\n  \n<%#Base%>\n  <div class=\"drop-down\">\n    <%= form.collection_select :bases, BaseYear.select(:YearID).distinct.order(YearID: :desc), :id, :YearID, :prompt => \"Select Year\" %>\n  </div> \n\n\n\n<%#Make%>\n  <div class=\"drop-down\">\n    <%= form.collection_select :base_makes, BaseMake.where(:MakeName), :id, :MakeName, :prompt => \"Select Make\"%>\n  </div>\n\n<%#Model%>\n  <div class=\"drop-down\">\n    <%= form.collection_select :base_models, BaseModel.order(:ModelName), :id, :ModelName, :prompt => \"Select Model\" %>\n  </div>\n\n<%#Sub Model%>\n  <div class=\"drop-down\">\n    <%= form.collection_select :base_sub_models, BaseSubModel.order(:SubModelName), :id, :SubModelName, :prompt => \"Select Sub-Model\" %>\n  </div>\n\n  <div class=\"actions\">\n    <%= form.submit :class => \"button\"%>\n  </div>\n\n<% end %>\n\n\n\n\n\n\n<style>\n\n  \n.field input {\n  color: gray;\n  margin-bottom: 1.5rem;\n}\n\n.field input:focus {\n  opacity: .8;\n}\n\n.field input {\n  width: 100%;\n  border-radius: 5px;\n  border: 1px solid   #909090;\n  color:  #909090;\n  padding: .7rem;\n  margin-top: .5rem;\n  margin-bottom: 2rem;\n}\n\n.field {\n  font-size: 18px;\n  text-align: left;\n}\n\nselect {\n    display: block;\n    width: 100%;\n    height: calc(1.5em + 0.75rem + 2px);\n    font-size: 1rem;\n    font-weight: 400;\n    line-height: 1.5;\n    color: #495057;\n    background-color: #fff;\n    background-clip: padding-box;\n    border: 1px solid #ced4da;\n    border-radius: 0.25rem;\n    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n    margin-bottom: 2rem;\n}\n\n\n\n\na:link {\n  color: white;\n  font-size: 14px;\n  text-decoration: none;\n  \n\n}\n\n/* visited link */\na:visited {\n  color: white;\n  text-decoration: none;\n\n}\n\n.button {\n  border-radius: 30px;\n  border: 1px transparent;\n  background-color: #44c8ed;\n  font-family: Helvetica;\n  text-decoration: none;\n  letter-spacing: 1px;\n  padding: 1rem;\n  min-width: 110px;\n  max-height: 3px;\n  transition: all ease .4s;\n  color: white;\n  line-height: 2px;\n  margin: 0 auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n\n}\n\n.button:hover {\n  background-color: #71d9f6;\n  border-color: #44c8ed;\n  color: white;\n  text-decoration: none;\n\n\n\n\n</style>\n\n",
-			"file": "app/views/cars/_form.html.erb",
-			"file_size": 2671,
-			"file_write_time": 132405330046358449,
-			"settings":
-			{
-				"buffer_size": 2671,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/seeds/Base_Vehicle.csv",
-			"settings":
-			{
-				"buffer_size": 602202,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "app/models/car.rb",
 			"settings":
 			{
 				"buffer_size": 112,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/service_entries/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 1147,
 				"line_ending": "Unix"
 			}
 		},
@@ -241,11 +229,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/jescf/Desktop/My_Garage6/app/views/cars/_form.html.erb",
+		"/C/Users/jescf/Desktop/My_Garage6/app/views/layouts/default.html.erb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_sub_model.rb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_model.rb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/models/base_make.rb",
-		"/C/Users/jescf/Desktop/My_Garage6/app/views/cars/_form.html.erb",
-		"/C/Users/jescf/Desktop/My_Garage6/app/views/layouts/default.html.erb",
 		"/C/Users/jescf/Desktop/My_Garage6/Gemfile",
 		"/C/Users/jescf/Desktop/My_Garage6/app/models/car.rb",
 		"/C/Users/jescf/Desktop/My_Garage6/app/controllers/cars_controller.rb",
@@ -477,69 +465,11 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/cars/_form.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2671,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								782,
-								782
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 219.333333333,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "lib/seeds/Base_Vehicle.csv",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 602202,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "app/models/car.rb",
 					"semi_transient": false,
 					"settings":
@@ -563,11 +493,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
+					"file": "app/views/service_entries/edit.html.erb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "app/models/base_year.rb",
 					"semi_transient": false,
 					"settings":
@@ -591,11 +551,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "app/models/base_make.rb",
 					"semi_transient": false,
 					"settings":
@@ -674,6 +634,10 @@
 		"selected_items":
 		[
 			[
+				"default",
+				"app\\views\\layouts\\default.html.erb"
+			],
+			[
 				"seed",
 				"db\\seeds.rb"
 			],
@@ -712,10 +676,6 @@
 			[
 				"route",
 				"config\\routes.rb"
-			],
-			[
-				"default",
-				"app\\views\\layouts\\default.html.erb"
 			],
 			[
 				"rout",
@@ -802,7 +762,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 90.0,
+	"side_bar_width": 450.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
